@@ -1,0 +1,54 @@
+.home {
+    background-color: #F5F7F9;
+
+    .box {
+        // background-color: yellow;
+        margin: 8px;
+    }
+
+    .tree-container {
+        width: 340px;
+        height: 100%;
+    }
+
+    .mll8 {
+        margin-left: 8px;
+    }
+
+    .formTable {
+
+        // padding: 0 24px;
+        .searchForm {
+            height: 60px;
+            margin-bottom: 8px;
+        }
+
+        .searchTable {
+
+            flex: 1;
+        }
+    }
+}
+
+.pdl12 {
+    padding-left: 15px;
+}
+
+.pdt12 {
+    padding-top: 12px;
+}
+
+.pdr12 {
+    padding-right: 12px;
+}
+
+.pda12 {
+    padding: 12px;
+}
+
+.paginationHeight {
+    // flex:1
+    height: 30px;
+    width: 100%;
+    float: right;
+}

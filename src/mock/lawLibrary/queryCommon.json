@@ -1,0 +1,179 @@
+{
+    "code": 10000,
+    "msg": "成功",
+    "data": {
+        "fcommonTool": [
+            {
+                "fcode": "1                               ",
+                "ftype": 0,
+                "ftypename": "常用工具",
+                "ftitle": "发票管理",
+                "flogo": "http://36.137.215.211:9025/gttaxmanage//gttaxmanage/RegulationLibrary/common/backimgenerOne.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20230927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230927T024012Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f1b31ec479d31e479a2f72cc33dcf5bdd384ec67bb86f7618dd5046820384c5a",
+                "furl": "https://inv-veri.chinatax.gov.cn",
+                "fusername": "admin",
+                "fupdatetime": "2023-09-04 17:00:17",
+                "addftype": 0,
+                "fusercode": null
+            },
+            {
+                "fcode": "2                               ",
+                "ftype": 0,
+                "ftypename": "常用工具",
+                "ftitle": "个税计算",
+                "flogo": "http://36.137.215.211:9025/gttaxmanage//gttaxmanage/RegulationLibrary/common/backimgenerFour.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20230927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230927T024012Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1d39fcf64dd0008491cb65d419fae4ac50612673d404421d75f7a4e50dfad1a2",
+                "furl": "https://www.taxspirit.com",
+                "fusername": "admin",
+                "fupdatetime": "2022-11-03 09:11:25",
+                "addftype": 0,
+                "fusercode": null
+            },
+            {
+                "fcode": "3                               ",
+                "ftype": 0,
+                "ftypename": "常用工具",
+                "ftitle": "企业信用信息",
+                "flogo": "http://36.137.215.211:9025/gttaxmanage//gttaxmanage/RegulationLibrary/common/backimgenerTwo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20230927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230927T024012Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4831bac6fad2e18c93e668d664387b1180f66162f48d687bd2c56d38819cbffc",
+                "furl": "https://www.gsxt.gov.cn/index.html",
+                "fusername": "admin",
+                "fupdatetime": "2023-09-04 16:53:07",
+                "addftype": 0,
+                "fusercode": null
+            },
+            {
+                "fcode": "4                               ",
+                "ftype": 0,
+                "ftypename": "常用工具",
+                "ftitle": "企查查",
+                "flogo": "http://36.137.215.211:9025/gttaxmanage//gttaxmanage/RegulationLibrary/common/backimgenerThree.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20230927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230927T024012Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=25c502490949e3dcc891342f903f2ffd90f755c385caeea308e677d6611b26b1",
+                "furl": "https://www.qcc.com",
+                "fusername": "admin",
+                "fupdatetime": "2022-11-03 09:12:38",
+                "addftype": 0,
+                "fusercode": null
+            }
+        ],
+        "fcommonLink": [
+            {
+                "fcode": "6                               ",
+                "ftype": 1,
+                "ftypename": "常用链接",
+                "ftitle": "中华人民共和国财政部",
+                "flogo": "http://36.137.215.211:9025/gttaxmanage//gttaxmanage/RegulationLibrary/common/lawTwo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20230927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230927T024012Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=280aa9781a7613649d8b83614299f3d21f1da3b5edb0c01ee38dabe4a574657c",
+                "furl": "http://www.mof.gov.cn/index.htm",
+                "fusername": "admin",
+                "fupdatetime": "2022-11-03 09:14:00",
+                "addftype": 0,
+                "fusercode": null
+            },
+            {
+                "fcode": "5                               ",
+                "ftype": 1,
+                "ftypename": "常用链接",
+                "ftitle": "国家税务总局",
+                "flogo": "http://36.137.215.211:9025/gttaxmanage//gttaxmanage/RegulationLibrary/common/lawOne.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20230927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230927T024012Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=25e4eb9bbcd45b888d0f6b967036544bba4a7baad2063f3be2fe86ea0699e22c",
+                "furl": "http://www.chinatax.gov.cn",
+                "fusername": "admin",
+                "fupdatetime": "2022-11-03 09:13:20",
+                "addftype": 0,
+                "fusercode": null
+            },
+            {
+                "fcode": "21                              ",
+                "ftype": 1,
+                "ftypename": "常用链接",
+                "ftitle": "12366纳税服务平台",
+                "flogo": "http://36.137.215.211:9025/gttaxmanage//gttaxmanage/RegulationLibrary/common/lawSix.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20230927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230927T024012Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e6cc156184cb66d2f28a19e4ad2d99e4ecb22379e07acff0fcf749aa88350033",
+                "furl": "http://12366.chinatax.gov.cn/",
+                "fusername": "admin",
+                "fupdatetime": "2023-09-04 16:52:44",
+                "addftype": 0,
+                "fusercode": null
+            },
+            {
+                "fcode": "8                               ",
+                "ftype": 1,
+                "ftypename": "常用链接",
+                "ftitle": "中国税网",
+                "flogo": "http://36.137.215.211:9025/gttaxmanage//gttaxmanage/RegulationLibrary/common/lawFour.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20230927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230927T024012Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1578c9b143aa2e2cc2c2ed590524f28f0c00d4c6b10c5f7fbfbd3813c849968e",
+                "furl": "http://www.ctaxnews.com.cn/",
+                "fusername": "admin",
+                "fupdatetime": "2023-05-26 09:15:27",
+                "addftype": 0,
+                "fusercode": null
+            },
+            {
+                "fcode": "9                               ",
+                "ftype": 1,
+                "ftypename": "常用链接",
+                "ftitle": "威科先行",
+                "flogo": "http://36.137.215.211:9025/gttaxmanage//gttaxmanage/RegulationLibrary/common/lawFive.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20230927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230927T024012Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=74a4c24ed7fb8f3649ea4cf0c9575dba872196a64d2683ff7dc86124a23934ac",
+                "furl": "https://taa.wkinfo.com.cn/",
+                "fusername": "admin",
+                "fupdatetime": "2023-05-26 09:17:14",
+                "addftype": 0,
+                "fusercode": null
+            },
+            {
+                "fcode": "7                               ",
+                "ftype": 1,
+                "ftypename": "常用链接",
+                "ftitle": "税屋",
+                "flogo": "http://36.137.215.211:9025/gttaxmanage//gttaxmanage/RegulationLibrary/common/lawThree.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20230927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230927T024012Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8f0314c0fd963b0261949a56badc7fbc53bfc844a06fbdec6bf10a6d83b5a1d7",
+                "furl": "https://www.shui5.cn",
+                "fusername": "admin",
+                "fupdatetime": "2023-05-26 09:17:34",
+                "addftype": 0,
+                "fusercode": null
+            },
+            {
+                "fcode": "22                              ",
+                "ftype": 1,
+                "ftypename": "常用链接",
+                "ftitle": "安永中国税务快讯",
+                "flogo": "http://36.137.215.211:9025/gttaxmanage//gttaxmanage/RegulationLibrary/common/lawSeven.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20230927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230927T024012Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=21d2aec680e0f71ebd5fa7557bf9c0a3c273bbc922e20897c9ec3df90d9e8510",
+                "furl": "https://www.ey.com/zh_cn/china-tax-alerts?wcmmode=disabled",
+                "fusername": "admin",
+                "fupdatetime": "2023-05-26 09:18:27",
+                "addftype": 0,
+                "fusercode": null
+            },
+            {
+                "fcode": "23                              ",
+                "ftype": 1,
+                "ftypename": "常用链接",
+                "ftitle": "税务通讯",
+                "flogo": "http://36.137.215.211:9025/gttaxmanage//gttaxmanage/RegulationLibrary/common/lawEight.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20230927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230927T024012Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=cf7bf3de06937b51ec3737aada10ca892fd0d30bf3354e8d73b98fbdf34a134a",
+                "furl": "https://www2.deloitte.com/cn/zh/pages/tax/solutions/tax-newsletters.html",
+                "fusername": "admin",
+                "fupdatetime": "2023-05-26 09:18:46",
+                "addftype": 0,
+                "fusercode": null
+            },
+            {
+                "fcode": "24                              ",
+                "ftype": 1,
+                "ftypename": "常用链接",
+                "ftitle": "毕马威中国税务快讯",
+                "flogo": "http://36.137.215.211:9025/gttaxmanage//gttaxmanage/RegulationLibrary/common/lawNine.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20230927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230927T024012Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=af1da2e4c6ca8be8b76742a2f200d7508d3ef1e7700558794f99552a0c43c7d8",
+                "furl": "https://kpmg.com/cn/zh/home/insights/2023/01/china-tax-alert.html",
+                "fusername": "admin",
+                "fupdatetime": "2023-05-26 09:19:17",
+                "addftype": 0,
+                "fusercode": null
+            },
+            {
+                "fcode": "25                              ",
+                "ftype": 1,
+                "ftypename": "常用链接",
+                "ftitle": "普华永道中国税务服务",
+                "flogo": "http://36.137.215.211:9025/gttaxmanage//gttaxmanage/RegulationLibrary/common/lawTen.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20230927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230927T024012Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=cd9565b2aed2c1f3e65f795d2fd0a9e4387dfa3231a1381652c190ab945e2cf0",
+                "furl": "https://www.pwccn.com/zh/services/tax/publications/china-taxbusiness-news-flash-library.html",
+                "fusername": "admin",
+                "fupdatetime": "2023-05-26 09:19:23",
+                "addftype": 0,
+                "fusercode": null
+            }
+        ]
+    },
+    "success": true
+}

@@ -1,0 +1,59 @@
+{
+    "total": 6,
+    "rows": [
+        {
+            "fCode": "659b386f69f744c28598ead1d6985232",
+            "fName": "mbwzdy0904",
+            "fpreiod": "2022年01月至2022年12月",
+            "fstatusname": "已推送",
+            "completeRate": "0.00%",
+            "fstatus": 4,
+            "isUpdate": 1
+        },
+        {
+            "fCode": "7aa883a91c5e4c1e94144afc35df52c6",
+            "fName": "测试",
+            "fpreiod": "2022年01月至2022年12月",
+            "fstatusname": "已执行待推送",
+            "completeRate": "0.00%",
+            "fstatus": 3,
+            "isUpdate": 1
+        },
+        {
+            "fCode": "0a43405620f44ff7a9b1e4e1111c8128",
+            "fName": "hbscs",
+            "fpreiod": "2022年01月至2022年12月",
+            "fstatusname": "已执行待推送",
+            "completeRate": "0.00%",
+            "fstatus": 3,
+            "isUpdate": 1
+        },
+        {
+            "fCode": "b4819ef188ab4da68b1319a0c354538f",
+            "fName": "mbwsr08301409",
+            "fpreiod": "2022年01月至2022年12月",
+            "fstatusname": "已执行待推送",
+            "completeRate": "0.00%",
+            "fstatus": 3,
+            "isUpdate": 0
+        },
+        {
+            "fCode": "445228d30cec49c783cef1500c43540d",
+            "fName": "mbwsr08301339-利润表收入不等于增值税申报收入",
+            "fpreiod": "2022年01月至2022年12月",
+            "fstatusname": "已执行待推送",
+            "completeRate": "0.00%",
+            "fstatus": 3,
+            "isUpdate": 0
+        },
+        {
+            "fCode": "a12749ceef9e4c51ab24bedd5135bee7",
+            "fName": "cs",
+            "fpreiod": "2022年01月至2022年12月",
+            "fstatusname": "已执行待推送",
+            "completeRate": "0.00%",
+            "fstatus": 3,
+            "isUpdate": 1
+        }
+    ]
+}

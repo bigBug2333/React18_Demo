@@ -1,0 +1,121 @@
+{
+    "code": 10000,
+    "msg": "成功",
+    "data": {
+        "fcolumn": [
+            {
+                "fCode": "136e0e8979934fa7865d93e73182e76b",
+                "fName": "税讯速递",
+                "fTag": -4,
+                "fUpdateTime": "2023-01-16T15:37:13.965+00:00"
+            },
+            {
+                "fCode": "ed2b7c03d217450bbc9d8d05f43f6cbd",
+                "fName": "税收法规",
+                "fTag": -3,
+                "fUpdateTime": "2022-10-17T10:20:49.828+00:00"
+            },
+            {
+                "fCode": "6caf12a6d1c043e298709421a513dd70",
+                "fName": "税收优惠",
+                "fTag": -2,
+                "fUpdateTime": "2022-12-26T03:21:45.432+00:00"
+            },
+            {
+                "fCode": "b3669b46984a465d9e83bed284ba4c45",
+                "fName": "1234",
+                "fTag": 1,
+                "fUpdateTime": "2023-06-26T07:43:29.300+00:00"
+            },
+            {
+                "fCode": "c268df12f1444c6e8a49d323a15ea0e0",
+                "fName": "案例分享",
+                "fTag": 6,
+                "fUpdateTime": "2022-12-29T16:12:31.003+00:00"
+            },
+            {
+                "fCode": "d75972cce42c41ceaa5a4623618eb426",
+                "fName": "微课堂",
+                "fTag": 10,
+                "fUpdateTime": "2023-04-21T09:23:38.836+00:00"
+            },
+            {
+                "fCode": "e166931c340f45a1adbee19347a2f0d9",
+                "fName": "个人个人",
+                "fTag": 11,
+                "fUpdateTime": "2023-06-08T02:50:10.600+00:00"
+            }
+        ],
+        "fspecialColumn": [
+            {
+                "fcode": "ZL80f5eed2cdf84d4a8d42ae78b3805493",
+                "ftitle": "3222222222",
+                "fsketch": "4444444",
+                "fcover": "http://36.137.215.211:9025/gttaxmanage//gttaxmanage/RegulationLibrary/2b24c1b976b84b50ac6b3a5fabd6f2dc/1124791.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20230927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230927T011541Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=102730455671dea3a0793f1758a940a2fd46bed2219aab458ddafced07395aff",
+                "ftag": 0,
+                "furl": "",
+                "fupdatetime": "2023-06-13"
+            },
+            {
+                "fcode": "ZL5d93c93ff1ba4e98a60c38285ffa4919",
+                "ftitle": "111",
+                "fsketch": "test",
+                "fcover": "http://36.137.215.211:9025/gttaxmanage//gttaxmanage/RegulationLibrary/667b5a8ea6704e96aa33faf8f0b6ad8e/Egg1ZhEUYAAPasN_format%3Djpg%26name%3Dlarge.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20230927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230927T011541Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5c46bbc1a21319fc36aa511b1fdf5f3f5a9212d3d4905742d6d4011019291f49",
+                "ftag": 0,
+                "furl": "",
+                "fupdatetime": "2023-09-27"
+            }
+        ],
+        "fCommonNew": [
+            {
+                "fcode": "4609d44db8dc4b57b01955a3a815cf85",
+                "ftitle": "mbw",
+                "fBusinessCode": "4609d44db8dc4b57b01955a3a815cf85",
+                "fOrder": 39,
+                "fSearchNum": 39,
+                "fShowTitle": "mbw"
+            },
+            {
+                "fcode": "a263c0da23954919aa34df5776c721ab",
+                "ftitle": "2023年乒乓球亚锦赛",
+                "fBusinessCode": "a263c0da23954919aa34df5776c721ab",
+                "fOrder": 0,
+                "fSearchNum": 10,
+                "fShowTitle": "2023年..."
+            },
+            {
+                "fcode": "7d4aa3aeee69405e9417c525eef1e218",
+                "ftitle": "纳税情况汇总表并发查询测试",
+                "fBusinessCode": "7d4aa3aeee69405e9417c525eef1e218",
+                "fOrder": 10,
+                "fSearchNum": 10,
+                "fShowTitle": "纳税情况汇..."
+            },
+            {
+                "fcode": "1",
+                "ftitle": "个人所得税",
+                "fBusinessCode": "1",
+                "fOrder": 3,
+                "fSearchNum": 8,
+                "fShowTitle": "个人所得税"
+            },
+            {
+                "fcode": "0e3ac47759b04f88a2540cc320902d63",
+                "ftitle": "新时代",
+                "fBusinessCode": "0e3ac47759b04f88a2540cc320902d63",
+                "fOrder": 8,
+                "fSearchNum": 8,
+                "fShowTitle": "新时代"
+            },
+            {
+                "fcode": "fb59dfdf60b6482e9abce46e7f8e07bb",
+                "ftitle": "只有标题",
+                "fBusinessCode": "fb59dfdf60b6482e9abce46e7f8e07bb",
+                "fOrder": 7,
+                "fSearchNum": 7,
+                "fShowTitle": "只有标题"
+            }
+        ]
+    },
+    "success": true
+}

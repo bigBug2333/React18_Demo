@@ -1,0 +1,819 @@
+{
+    "code": 10000,
+    "msg": "成功！",
+    "data": {
+        "menuList": [
+            {
+                "id": "56ee95fcf66f42faa44b3832f6957e2o",
+                "title": "系统管理",
+                "path": "/sys",
+                "icon": "",
+                "isHide": "0",
+                "children": [
+                    {
+                        "id": "56ee95fcf66f42fcb34b3832f6957e2c",
+                        "title": "岗位管理",
+                        "path": "/sys/posts",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "56ee95fcf66f42fcb34b3832f6958b2c",
+                        "title": "用户管理",
+                        "path": "/sys/user",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "56ee95fcf77f42faa34b3832f6957e2c",
+                        "title": "组织架构管理",
+                        "path": "/sys/organize",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "56ee95fcf66f42faa34b3782f6957e2c",
+                        "title": "菜单权限管理",
+                        "path": "/sys/menu",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "4528272634084607b9b827e2c5e18bba",
+                        "title": "操作日志",
+                        "path": "/sys/LogManagement",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "71a149c12a744b739c607cfe8bbd0d11",
+                        "title": "字典管理",
+                        "path": "/sys/dictionaries",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "7d9784c7986d4f2b93246dc1a6c76c18",
+                        "title": "数据同步",
+                        "path": "/synchronous/index",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "ec308fa7840d4616ba0aa75f1c977130",
+                        "title": "帮助文档",
+                        "path": "/sys/document",
+                        "icon": "ios-add",
+                        "isHide": "0",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "11d106028da54867ac12d0208206151c",
+                "title": "基础信息",
+                "path": "/basics",
+                "icon": "",
+                "isHide": "0",
+                "children": [
+                    {
+                        "id": "704f0829bae5405a8f163a91669265f6",
+                        "title": "纳税主体信息",
+                        "path": "/basics/taxSubject",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "2a8ead070da84b31acd31255676bdc4f",
+                        "title": "报表模板配置",
+                        "path": "/tax/report",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "9e33e46ca01548609b114538cd2bf23c",
+                        "title": "税收优惠配置",
+                        "path": "/basics/preferentialConfiguration",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "95bd1cd0693f40da86037e06210746af",
+                        "title": "办税提醒设置",
+                        "path": "/tax/taxReminder",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "f177cce834d741139bbbf46b6fa30bee",
+                        "title": "纳税日历",
+                        "path": "/tax/taxCalendar",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "ac95ed5fa5b547b7a864e6a6f6979c33",
+                        "title": "留存比例配置",
+                        "path": "/statistics/retentionRatio",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "5c4fd4d732604679b977a0a71c81fdcb",
+                        "title": "通知公告发布",
+                        "path": "/basics/notice",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "7213b3b8289e4309ae3ffe66f2726ec6",
+                "title": "智能申报",
+                "path": "/tax",
+                "icon": "",
+                "isHide": "0",
+                "children": [
+                    {
+                        "id": "a999ca3e87984fe3b3335ab344c9adb5",
+                        "title": "申报配置",
+                        "path": "/tax/declarationSetting",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": [
+                            {
+                                "id": "eaa438c8e8b24c6fa13e20a09eddb953",
+                                "title": "纳税人报表模板",
+                                "path": "/tax/taxpayerReport",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ef9151f6cd12455b8b445b59f88a1685",
+                        "title": "纳税申报",
+                        "path": "/tax/declarationlist",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": [
+                            {
+                                "id": "f99c120b2352462b969279e522b0befb",
+                                "title": "增值税及附加税费（一般纳税人）",
+                                "path": "/tax/declaration?taxCode=10101",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "e961b2206e074b14b80c29353cd9309a",
+                                "title": "增值税及附加税费（小规模纳税人）",
+                                "path": "/tax/declaration?taxCode=10102",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "cafa2d4982904cf682857caae7d2541a",
+                                "title": "企业所得税月（季）度申报",
+                                "path": "/tax/declaration?taxCode=10105",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "2bedd54aad7a4dfa934504197facdd6a",
+                                "title": "企业所得税年度申报",
+                                "path": "/tax/declaration?taxCode=10104",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "dd1324b3966c4f55af9a607b4fd99832",
+                                "title": "印花税",
+                                "path": "/tax/declaration?taxCode=10111",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "b9a186c5f685441aa03f057b58ede1c1",
+                                "title": "房产税",
+                                "path": "/tax/declaration?taxCode=10110",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "c495e3cd4cf84168bcfbbafb45ea865c",
+                                "title": "城镇土地使用税",
+                                "path": "/tax/declaration?taxCode=10112",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "4201633cb9704c449cb45eb971945261",
+                                "title": "环境保护税",
+                                "path": "/tax/declaration?taxCode=10121",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "30809381161c4d48a8ea1d64f8ae69fa",
+                        "title": "申报任务管理",
+                        "path": "/tax/declarlist",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": [
+                            {
+                                "id": "62fb8abf2b354686a64784817bc3d3be",
+                                "title": "申报任务管理",
+                                "path": "/tax/declareTask",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "4d8d9b1f147247b7a59fe2ff7a137390",
+                                "title": "申报任务管理",
+                                "path": "/tax/declaration",
+                                "icon": "",
+                                "isHide": "1",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "61a482965dc540dd983c20839a4991fe",
+                "title": "发票管理",
+                "path": "/invoice",
+                "icon": "",
+                "isHide": "0",
+                "children": [
+                    {
+                        "id": "669eaadc9bbc45bfa795384afab44a9c",
+                        "title": "进项发票管理",
+                        "path": "/invoice/inputInvoice",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": [
+                            {
+                                "id": "14d3d1eb53594c57841c5a492464ae22",
+                                "title": "进项发票导入",
+                                "path": "/invoice/inputInvoice/invoiceScan",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "23c2fc20a6614ba686d2b3f98c83900c",
+                                "title": "进项发票池",
+                                "path": "/invoice/inputInvoice/inputInvoicePool",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "0265ffbfd5d5451dbd5ca641352ed6a0",
+                                "title": "进项发票认证",
+                                "path": "/invoice/inputInvoice/inputInvoiceCertification",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "b18f4be49c1341b5b68d5006f3f3fa20",
+                                "title": "确认统计签名",
+                                "path": "/invoice/inputInvoice/statisticalTableConfirm",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "4caabe9691154858bfa758239e49c256",
+                                "title": "进项差异比对",
+                                "path": "/invoice/inputInvoice/inputDifferenceCompare",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "faf37d9b6c584f6dbef27ae8474a92f8",
+                                "title": "进项转出台账",
+                                "path": "/invoice/inputInvoice/inputTransferStand",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "b3207aa356db444481286bbc64afc4f3",
+                        "title": "销项发票管理",
+                        "path": "/invoice/outputInvoice",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": [
+                            {
+                                "id": "c0460b9978b14b95a198d71fa605564f",
+                                "title": "发票限额配置",
+                                "path": "/invoice/outputInvoice/limitSetting",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "c6fe402ff76640738757d2dbbc72cfce",
+                                "title": "客户基础信息",
+                                "path": "/invoice/outputInvoice/customBasicInfo",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "7468d493d1734846b2a61b4baed9e90d",
+                                "title": "商品编码管理",
+                                "path": "/invoice/outputInvoice/codeManagement",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "bf4a495391df462ba7d1b3eef1d1d24f",
+                                "title": "空白发票登记",
+                                "path": "/invoice/outputInvoice/blankInvoiceCheck",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "b0dbd4a1984c416bbd1095e69a8056bf",
+                                "title": "发票开票申请",
+                                "path": "/invoice/outputInvoice/invoiceIssueApply",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "e2cfbdc3023e4281a68113f996e35111",
+                                "title": "待开发票管理",
+                                "path": "/invoice/outputInvoice/issuingInvoice",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "5879573a39284fbeb1151561f4e558d3",
+                                "title": "已开发票管理",
+                                "path": "/invoice/outputInvoice/issuedInvoice",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "1082c5c7a5e54443bcc68954ed8a8017",
+                                "title": "作废红冲管理",
+                                "path": "/invoice/outputInvoice/InvalidRedDashed",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "48d6e457660247928f9a0e5859f0fe36",
+                                "title": "未票收入台账",
+                                "path": "/invoice/outputInvoice/uninvoicedDetailedLedger",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "aad5a4cf70cf4ef38e95851c8db59c0f",
+                "title": "统计分析",
+                "path": "/statisticalAnalysis",
+                "icon": "",
+                "isHide": "0",
+                "children": [
+                    {
+                        "id": "0c5e5268d82e49c6af56104829e140a5",
+                        "title": "统计分析概览",
+                        "path": "/statistics/board",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": [
+                            {
+                                "id": "5e4943772f454fbd92d93497acec6e9b",
+                                "title": "看板页",
+                                "path": "/statistics/newStatisticalAnalysisBoard",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "16b20907bd084fa3b1084df7201c3fef",
+                        "title": "纳税统计填报",
+                        "path": "/statistics/board1",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": [
+                            {
+                                "id": "96e9b1b8a7d44d85a362cf026cb0005d",
+                                "title": "纳税情况明细表",
+                                "path": "/statistics/taxSituation?reportCode=TJFX006",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "dbe36cc7b51f4eaf910571a2bfbeaa2d",
+                                "title": "税收优惠政策执行明细表",
+                                "path": "/statistics/taxSituation?reportCode=TJFX012",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "3fdc26126e064391aec6c911957d8d40",
+                                "title": "纳税信用等级统计表",
+                                "path": "/statistics/taxSituation?reportCode=TJFX007",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "0a46fe1d484445b4834a176e5d133ce9",
+                                "title": "企业所得税汇算清缴统计表",
+                                "path": "/statistics/taxSituation?reportCode=TJFX009",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "4bcf94f9489a4939baab6c852800b531",
+                                "title": "可弥补亏损统计表",
+                                "path": "/statistics/taxSituation?reportCode=TJFX011",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "33fd2f8fcde64a9cb7c5d9b6fe7dbd03",
+                                "title": "研发加计扣除统计表",
+                                "path": "/statistics/taxSituation?reportCode=TJFX015",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "d63c87c3f2d64be2ace97994779b0c46",
+                                "title": "高新技术企业统计表",
+                                "path": "/statistics/taxSituation?reportCode=TJFX002",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "c51b79ee90fa422cb5fa5dfc7c88f479",
+                                "title": "境外税收抵免统计表",
+                                "path": "/statistics/taxSituation?reportCode=TJFX004",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "17ff292577d64cac913535d7436fc350",
+                                "title": "国别报告",
+                                "path": "/statistics/taxSituation?reportCode=TJFX003",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4b34f4a376bf4bc1958b556b6f8f089b",
+                        "title": "纳税统计查询",
+                        "path": "/statistics/board2",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": [
+                            {
+                                "id": "636b46876b86474eb913cb3b23e7ae95",
+                                "title": "纳税情况汇总表",
+                                "path": "/statistics/taxSituation?reportCode=bj_TJFX006",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "a058780fe1a142609dc49412d334c846",
+                                "title": "税收优惠政策执行汇总表",
+                                "path": "/statistics/taxSituation?reportCode=TJFX025",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "d5b77147635642aba7f8b04fd5daaf44",
+                                "title": "税负率汇总表",
+                                "path": "/statistics/taxSituation?reportCode=TJFX017",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "7ebf202708cc43a28a42d3bd4b4eb255",
+                                "title": "税金留存比例汇总表",
+                                "path": "/statistics/taxSituation?reportCode=TJFX014",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "496e68182e69450884a7e09c9e7d2e1c",
+                        "title": "自定义统计表填报",
+                        "path": "/",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": [
+                            {
+                                "id": "ab4a153b7bb04a519d727b8a78b252f5",
+                                "title": "自定义统计表配置",
+                                "path": "/statistics/reportSet",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "95e0b4c5249346e49bac427db799232f",
+                                "title": "自定义统计表填报",
+                                "path": "/statistics/taxSituation",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            },
+                            {
+                                "id": "0c80d39c085a4f2c9264b309a6fd40ee",
+                                "title": "自定义统计表汇总",
+                                "path": "/statistics/taxSituationOther",
+                                "icon": "",
+                                "isHide": "0",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "6eb3f7314928488ebe8a20fe5991524f",
+                "title": "风险管控",
+                "path": "/riskIdentyResponse",
+                "icon": "",
+                "isHide": "0",
+                "children": [
+                    {
+                        "id": "05ff5e7a721a45d68166567f958457be",
+                        "title": "风险概览",
+                        "path": "/riskIdentyResponse/overView",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "127f680f36664563808c987a226feb73",
+                        "title": "风险指标配置",
+                        "path": "/riskIdentyResponse/riskIndicator",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "233b6ac334da4d4c8017d59af7ad1315",
+                        "title": "风险任务管理",
+                        "path": "/riskIdentyResponse/riskList",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "036d20ebc4254170a93538b99101d177",
+                        "title": "风险识别与应对",
+                        "path": "/riskIdentyResponse/riskIdenty",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "119105498a704078941c39bc0c6b399e",
+                        "title": "税种概览详细",
+                        "path": "/riskIdentyResponse/overViewDetail",
+                        "icon": "",
+                        "isHide": "1",
+                        "children": []
+                    },
+                    {
+                        "id": "4d1a1aca652b4507b159e2af3db37032",
+                        "title": "补缴情况",
+                        "path": "/riskIdentyResponse/taxDetail",
+                        "icon": "",
+                        "isHide": "1",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "f71678b90af8483192a2ba9b842f8e9c",
+                "title": "税收法规库",
+                "path": "/lawLibrary",
+                "icon": "",
+                "isHide": "0",
+                "children": [
+                    {
+                        "id": "8a9ff3dd193f40a78132748c606de9b0",
+                        "title": "配置管理",
+                        "path": "/lawLibrary/lawLibraryConfiguration",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "348fadbd8da54f4aa983acbf7c172519",
+                        "title": "税收法规库",
+                        "path": "/lawLibrary/lawLibrary",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "21e2e32589ec440eb5073d30028c4219",
+                        "title": "常用工具（链接）配置",
+                        "path": "/lawLibrary/commonToolsConfiguration",
+                        "icon": "ios-add",
+                        "isHide": "0",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "96913ef8136a42a2a15f4e72b3b68d48",
+                "title": "电子档案",
+                "path": "/taxFiles",
+                "icon": "",
+                "isHide": "0",
+                "children": [
+                    {
+                        "id": "9dsswq123548609b114538cd223c",
+                        "title": "档案类型配置",
+                        "path": "/taxFiles/fileTypeConfiguration",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    },
+                    {
+                        "id": "3d1d04b90c434f5faa2653ae12c8eae8",
+                        "title": "档案管理",
+                        "path": "/taxFiles/fileManage",
+                        "icon": "",
+                        "isHide": "0",
+                        "children": []
+                    }
+                ]
+            }
+        ],
+        "permissions": [
+            "",
+            "",
+            "",
+            "organize",
+            "user",
+            "dictionaries",
+            "",
+            "",
+            "sys",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "fxzbpz:add",
+            "fxzbpz:edit",
+            "fxzbpz:delete",
+            "",
+            "",
+            "ssyhpz:add",
+            "ssyhpz:edit",
+            "ssyhpz:delete",
+            "",
+            "spbmgl:add",
+            "",
+            "spbmgl:import",
+            "spbmgl:template",
+            "spbmgl:delete",
+            "spbmgl:edit",
+            "",
+            "",
+            "",
+            "menu",
+            "nsztxx:delete",
+            "zdytjb:import",
+            "zdytjb:downloadTemple",
+            "",
+            "bbmbpz-show",
+            "ssyhpz:sstjpz",
+            "ssyhpz:cateandname",
+            "",
+            "posts",
+            ""
+        ]
+    },
+    "success": true
+}

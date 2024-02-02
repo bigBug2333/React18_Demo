@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#63667c"/>
+      <stop offset="1" stop-color="#383e4c"/>
+    </linearGradient>
+  </defs>
+  <g id="统计分析" transform="translate(-902.96 -201.96)">
+    <rect id="矩形_281" data-name="矩形 281" width="20" height="20" transform="translate(902.96 201.96)" fill="#f6d6db" opacity="0"/>
+    <g id="组_118" data-name="组 118" transform="translate(904.245 203.66)">
+      <path id="路径_163" data-name="路径 163" d="M16.036,25.183l-4.9,6.988a.83.83,0,0,0,.68,1.306h9.8a.83.83,0,0,0,.68-1.306l-4.9-6.988A.83.83,0,0,0,16.036,25.183Z" transform="translate(-7.8 -16.979)" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0.3" fill="url(#linear-gradient)"/>
+      <rect id="矩形_323" data-name="矩形 323" width="17.467" height="13.1" rx="2" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+      <rect id="矩形_324" data-name="矩形 324" width="14.58" height="10.21" rx="1" transform="translate(1.444 1.445)" fill="#fff"/>
+      <g id="组_117" data-name="组 117" transform="translate(4.964 3.828)">
+        <rect id="矩形_325" data-name="矩形 325" width="1.485" height="3.464" rx="0.742" transform="translate(0 1.98)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+        <rect id="矩形_326" data-name="矩形 326" width="1.485" height="5.444" rx="0.742" transform="translate(3.027)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+        <rect id="矩形_327" data-name="矩形 327" width="1.485" height="3.959" rx="0.742" transform="translate(6.054 1.485)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

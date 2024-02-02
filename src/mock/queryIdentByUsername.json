@@ -1,0 +1,39 @@
+{
+    "code": 10000,
+    "msg": "成功！",
+    "data": [
+        {
+            "identId": "34f25a19a5a04e6bab6202753f3247e2",
+            "identName": "admin-主身份"
+        },
+        {
+            "identId": "7a3b2a504de448a1b17cc81fd9d27e5c",
+            "identName": "admin-税软"
+        },
+        {
+            "identId": "4b8319f0cd004e0495de32419397a008",
+            "identName": "admin-"
+        },
+        {
+            "identId": "4f8f4e1540fe42a294339ee94a9c3835",
+            "identName": "admin-测试身份"
+        },
+        {
+            "identId": "4cce14303d2c4a9c8775c0d1ec1f6965",
+            "identName": "亚普"
+        },
+        {
+            "identId": "b19a56baa1274d43abc1d034012d0df3",
+            "identName": "admin"
+        },
+        {
+            "identId": "5ab740724dad4211802de81daae2e342",
+            "identName": "admin-测试"
+        },
+        {
+            "identId": "0e969f9ef3744722be93fd3f20e50ffe",
+            "identName": "123"
+        }
+    ],
+    "success": true
+}

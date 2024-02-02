@@ -1,0 +1,653 @@
+{
+    "code": 10000,
+    "msg": "成功",
+    "data": {
+        "area": [
+            {
+                "fname": "全国",
+                "fcode": "100000",
+                "count": 15,
+                "children": null
+            },
+            {
+                "fname": "北京市",
+                "fcode": "110000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "天津市",
+                "fcode": "120000",
+                "count": 1,
+                "children": null
+            },
+            {
+                "fname": "河北省",
+                "fcode": "130000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "山西省",
+                "fcode": "140000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "内蒙古自治区",
+                "fcode": "150000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "辽宁省",
+                "fcode": "210000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "吉林省",
+                "fcode": "220000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "黑龙江省",
+                "fcode": "230000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "上海市",
+                "fcode": "310000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "江苏省",
+                "fcode": "320000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "浙江省",
+                "fcode": "330000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "安徽省",
+                "fcode": "340000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "福建省",
+                "fcode": "350000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "江西省",
+                "fcode": "360000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "山东省",
+                "fcode": "370000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "河南省",
+                "fcode": "410000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "湖北省",
+                "fcode": "420000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "湖南省",
+                "fcode": "430000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "广东省",
+                "fcode": "440000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "广西壮族自治区",
+                "fcode": "450000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "海南省",
+                "fcode": "460000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "重庆市",
+                "fcode": "500000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "四川省",
+                "fcode": "510000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "贵州省",
+                "fcode": "520000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "云南省",
+                "fcode": "530000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "西藏自治区",
+                "fcode": "540000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "陕西省",
+                "fcode": "610000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "甘肃省",
+                "fcode": "620000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "青海省",
+                "fcode": "630000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "宁夏回族自治区",
+                "fcode": "640000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "新疆维吾尔自治区",
+                "fcode": "650000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "台湾省",
+                "fcode": "710000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "香港特别行政区",
+                "fcode": "810000",
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "澳门特别行政区",
+                "fcode": "820000",
+                "count": 0,
+                "children": null
+            }
+        ],
+        "org": [
+            {
+                "fname": "全国人民代表大会常务委员会",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "国家税务总局",
+                "fcode": null,
+                "count": 1,
+                "children": null
+            },
+            {
+                "fname": "国务院",
+                "fcode": null,
+                "count": 1,
+                "children": null
+            },
+            {
+                "fname": "财政部",
+                "fcode": null,
+                "count": 1,
+                "children": null
+            }
+        ],
+        "tax": [
+            {
+                "fname": "增值税",
+                "fcode": null,
+                "count": 3,
+                "children": null
+            },
+            {
+                "fname": "企业所得税",
+                "fcode": null,
+                "count": 2,
+                "children": null
+            },
+            {
+                "fname": "房产税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "城镇土地使用税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "资源税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "印花税",
+                "fcode": null,
+                "count": 1,
+                "children": null
+            },
+            {
+                "fname": "城市维护建设税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "教育费附加",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "地方教育附加",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "环境保护税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "水资源税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "土地增值税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "契税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "耕地占用税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "车船税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "车辆购置税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "社会保险费",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "探矿权采矿权使用费",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "水土保持补偿费",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "残疾人就业保障金",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "文化事业建设费",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "水利建设基金",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "国家重大水利工程建设基金",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "可再生能源发展基金",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "大中型水库移民后期扶持基金",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "防空地下室易地建设收费",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "农网还贷资金",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "政府补贴",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "利得税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "预提企业所得税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "河道税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "船舶吨税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "消费税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "防洪维护费",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "关税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "其他税种",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "营业税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "其他收入",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "个人所得税",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "行政事业性收费收入",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "行政事业性收费及政府性基金",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            }
+        ],
+        "plate": [
+            {
+                "fname": "总部",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "电力",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "矿业",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "交通",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "高新",
+                "fcode": null,
+                "count": 1,
+                "children": null
+            },
+            {
+                "fname": "生物",
+                "fcode": null,
+                "count": 1,
+                "children": null
+            },
+            {
+                "fname": "健康",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "检测",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "智能",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "中成",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "电子院",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "创益",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "资本",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "财务公司",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "资产",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "中投咨询",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "人力",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "物业",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "贸易",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "融实",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            }
+        ],
+        "time": [
+            {
+                "fname": "近1个月",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "近3个月",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            },
+            {
+                "fname": "近1年",
+                "fcode": null,
+                "count": 11,
+                "children": null
+            },
+            {
+                "fname": "近3年",
+                "fcode": null,
+                "count": 14,
+                "children": null
+            },
+            {
+                "fname": "近5年",
+                "fcode": null,
+                "count": 15,
+                "children": null
+            },
+            {
+                "fname": "5年以前",
+                "fcode": null,
+                "count": 0,
+                "children": null
+            }
+        ]
+    },
+    "success": true
+}

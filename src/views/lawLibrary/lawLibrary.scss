@@ -1,0 +1,636 @@
+.search-word {
+  width: 100%;
+  height: 120px;
+  background: url("../../assets/law/1.png");
+  object-fit: cover;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .sear-input {
+    width: 1080px;
+    height: 50px !important;
+    position: relative;
+    padding: 1px 7px;
+
+    .searchIcon {
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .headerSearchInt {
+      height: 50px !important;
+      font-weight: normal;
+      // padding-left: 40px;
+      font-size: 16px;
+      position: absolute;
+      left: 12%;
+      // top: 8px;
+      width: 80%;
+    }
+  }
+
+  .search-words {
+    height: 22px;
+    width: 1080px;
+    padding-top: 2px;
+    padding-left: 6px;
+
+    .egText {
+      font-size: 14px;
+      color: #262626;
+    }
+
+    .commonSearchText {
+      font-size: 14px;
+      font-family: Microsoft YaHei UI, Microsoft YaHei UI-Regular;
+      font-weight: 400;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.65);
+      line-height: 22px;
+      letter-spacing: 0.7px;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+  }
+
+}
+
+.ant-input-search-button {
+  width: 82px;
+  background: #d6001c !important;
+  border-color: #d6001c !important;
+  font-size: inherit;
+  font-weight: normal;
+  line-height: 1;
+  text-align: center;
+}
+
+.law-content {
+  margin-top: 8px;
+  height: calc(100% - 128px);
+  overflow: hidden;
+  background-color: #F5F7F9;
+
+  // min-height: 890px;
+  .law-content-left {
+    width: 364px;
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.04);
+    height: 100%;
+    overflow: auto;
+
+    .law-top {
+      padding: 0 16px;
+
+      .top-part {
+        height: 40px;
+        border-bottom: 1px solid #e8e8e8;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .rightText {
+          color: #5e93fa;
+          cursor: pointer;
+          font-size: 12px;
+          font-weight: Microsoft YaHei UI,
+            Microsoft YaHei UI-Bold;
+        }
+      }
+
+      .law-carious {
+        margin-top: 6px;
+        width: 332px;
+        height: 296px;
+        // background: #D6001C;
+        // margin-bottom: 10px;
+
+        .carous-img {
+          width: 332px;
+          height: 296px;
+          position: relative;
+
+          img {
+            object-fit: cover;
+            width: 332px;
+            height: 296px;
+          }
+
+          .law-carious-text {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            font-size: 16px;
+            font-family: Microsoft YaHei UI, Microsoft YaHei UI-Regular;
+            font-weight: 400;
+            text-align: left;
+            color: #ffffff;
+            padding-left: 10px;
+            line-height: 36px;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 999999999999;
+            padding-right: 80px;
+            text-overflow: ellipsis;
+            /* height: 40px; */
+            overflow: hidden;
+            word-break: break-all;
+            text-overflow: ellipsis;
+            width: 100%;
+            white-space: nowrap;
+            margin: 0;
+          }
+        }
+      }
+
+      .law-tools {
+        margin: 12px 0;
+
+        .law-tools-top {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+
+          .widthtools {
+            width: calc(50% - 6px);
+          }
+
+          .law-tools-top-left {
+            // width: 162px;
+            height: 54px;
+            // background: url(../../../assets/law/3.png);
+            object-fit: cover;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            margin-bottom: 12px;
+
+            .imgs {
+              // width: 27px;
+              // height: 28px;
+              // margin: 13px 8px 13px 18px;
+              width: 100%;
+              height: 100%;
+            }
+
+            .text {
+              font-size: 14px;
+              font-family: Microsoft YaHei UI, Microsoft YaHei UI-Bold;
+              font-weight: 700;
+              text-align: left;
+              color: #bd9856;
+              line-height: 11px;
+              letter-spacing: 0.7px;
+            }
+          }
+
+          .law-tools-top-left:nth-child(2) {
+            // background: url(../../../assets/law/5.png);
+            object-fit: cover;
+            background-size: cover;
+
+            .text {
+              font-size: 14px;
+              font-family: Microsoft YaHei UI, Microsoft YaHei UI-Bold;
+              font-weight: 700;
+              text-align: left;
+              color: #856f9a;
+              line-height: 12px;
+              letter-spacing: 0.7px;
+            }
+          }
+        }
+
+        .mgt {
+          margin-top: 8px;
+
+          .law-tools-top-left:nth-child(1) {
+            background: url(../../../assets/law/4.png);
+            object-fit: cover;
+            background-size: cover;
+
+            .text {
+              font-size: 14px;
+              font-family: Microsoft YaHei UI, Microsoft YaHei UI-Bold;
+              font-weight: 700;
+              text-align: left;
+              color: #789785;
+              line-height: 11px;
+              letter-spacing: 0.7px;
+            }
+          }
+
+          .law-tools-top-left:nth-child(2) {
+            background: url(../../../assets/law/6.png);
+            object-fit: cover;
+            background-size: cover;
+
+            .text {
+              font-size: 14px;
+              font-family: Microsoft YaHei UI, Microsoft YaHei UI-Bold;
+              font-weight: 700;
+              text-align: left;
+              color: #1c82d4;
+              line-height: 12px;
+              letter-spacing: 0.7px;
+            }
+          }
+        }
+
+        .linBoxs {
+          border-radius: 4px;
+          box-shadow: 2px 2px 8px 0px #d5dfef;
+          height: 55px;
+          display: block;
+          margin-bottom: 10px;
+        }
+
+        .imgsLong {
+          height: 55px;
+          width: 156.2px
+        }
+
+        .imgsShort {
+          height: 55px;
+          width: 72.2px;
+          max-width: 100%;
+          max-height: 100%;
+          object-fit: contain
+        }
+      }
+
+      .law-links {
+        margin: 16px 0;
+
+        .law-tools-top {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .law-tools-top-left {
+            width: 162px;
+            height: 54px;
+            object-fit: cover;
+            background-size: cover;
+            cursor: pointer;
+
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+        }
+
+        .mgt {
+          margin-top: 8px;
+          cursor: pointer;
+
+          img {
+            width: 332px;
+            height: 60px;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+
+  .law-content-right {
+    width: calc(100% - 364px);
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.04);
+    margin-left: 8px;
+    padding: 9px 16px;
+    padding-bottom: 0;
+    overflow: hidden;
+    position: relative;
+
+    .rightIcon {
+      left: -2px;
+      width: 41px;
+      height: 46px;
+      top: 41px;
+      cursor: pointer;
+      position: absolute;
+    }
+
+    .tab-content {
+      height: 100vh;
+      overflow: auto;
+
+      .tab-content-left {
+        width: 286px;
+        // background-color: yellow;
+        border-right: 1px solid #ccc;
+        // background: #bd9856;
+        overflow-y: auto;
+
+        .tab-search {
+          height: 42px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-bottom: 1px solid #e8e8e8;
+
+          h1 {
+            font-size: 14px;
+            font-family: Microsoft YaHei UI, Microsoft YaHei UI-Bold;
+            font-weight: 700;
+            color: rgba(0, 0, 0, 0.85);
+          }
+
+          .img {
+            width: 40px;
+            overflow: hidden;
+          }
+
+          img {
+            width: 41px;
+            height: 46px;
+            cursor: pointer;
+            margin-right: -1px;
+            margin-top: 4px;
+          }
+        }
+
+        .search-select-collepse {
+          .search-colleps-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 42px;
+            border-bottom: 1px solid #e8e8e8;
+            cursor: pointer;
+
+            h1 {
+              font-size: 14px;
+              font-family: Microsoft YaHei UI, Microsoft YaHei UI-Bold;
+              font-weight: 700;
+              text-align: left;
+              color: rgba(0, 0, 0, 0.85);
+            }
+
+            img {
+              width: 12px;
+              height: 12px;
+              margin-right: 10px;
+              cursor: pointer;
+            }
+          }
+
+          .search-colleps-content {
+            .ivu-tree {
+              // margin-top: 12px;
+
+              .ivu-tree-title {
+                width: calc(100% - 10p);
+                font-size: 14px;
+                color: #1d2129;
+                padding-left: 0;
+
+                &:hover,
+                &.ivu-tree-title-selected {
+                  background: transparent;
+                  color: #5e93fa;
+                }
+
+                span>span>span:nth-child(1) {
+                  margin-left: -16px;
+                }
+              }
+            }
+
+            .content-item {
+              display: flex;
+              justify-content: space-between;
+              // align-items: center;
+              height: 32px;
+              line-height: 32px;
+              cursor: pointer;
+
+              p {
+                font-size: 14px;
+                font-family: Microsoft YaHei UI, Microsoft YaHei UI-Regular;
+                font-weight: 400;
+                text-align: left;
+                color: #1d2129;
+                cursor: pointer;
+              }
+
+              &:hover {
+                p {
+                  color: #5e93fa;
+                }
+              }
+
+              &.selected {
+                p {
+                  color: #5e93fa;
+                }
+              }
+            }
+
+            .more {
+              height: 32px;
+              font-size: 12px;
+              font-family: Microsoft YaHei UI, Microsoft YaHei UI-Regular;
+              font-weight: 400;
+              text-align: center;
+              color: #cbcbcb;
+              line-height: 32px;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
+      .tab-content-right {
+        width: 100%;
+        height: 100%;
+        // background: red;
+
+        overflow-y: hidden;
+
+        .right-search {
+          height: 42px;
+          border-bottom: 1px solid #e8e8e8;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .right-search-right {
+            width: 206px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+
+            .con-order {
+              margin: 0 14px;
+              width: 118px;
+              height: 26px;
+              border: 1px solid #e8e8e8;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+
+              span {
+                font-size: 12px;
+                width: 92px;
+                border-right: 1px solid #e8e8e8;
+                text-align: center;
+                height: 26px;
+                line-height: 26px;
+              }
+
+              img {
+                width: 10px;
+                height: 10px;
+                margin-right: 6px;
+              }
+            }
+          }
+        }
+
+        .main-content {
+          // height: 88%;
+          height: calc(100% - 92px);
+          overflow-y: auto;
+          // margin-left: 18px;
+          // background-color: yellow;
+        }
+
+        .iconNew {
+          font-size: 10px;
+          margin-right: 13px;
+          color: #d6001c;
+          font-weight: 700;
+          top: 15%;
+          margin-left: 4px
+        }
+
+        .page-info {
+          // position: absolute;
+          bottom: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          // width: 100%;
+          height: 50px;
+          padding: 0 20px;
+
+          .text {
+            font-size: 12px;
+            font-family: Microsoft YaHei UI, Microsoft YaHei UI-Regular;
+            font-weight: 400;
+            text-align: left;
+            color: rgba(0, 0, 0, 0.65);
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,
+.ant-tabs-tab:hover {
+  color: #d6001c !important;
+}
+
+.ant-tabs-ink-bar {
+  background: #d6001c !important;
+}
+
+.overyH {
+  overflow-y: hidden;
+  // background-color: pink;
+}
+
+.ant-tabs-nav {
+  margin: 0;
+}
+
+.ant-tabs-top>.ant-tabs-nav,
+.ant-tabs-bottom>.ant-tabs-nav,
+.ant-tabs-top>div>.ant-tabs-nav,
+.ant-tabs-bottom>div>.ant-tabs-nav {
+  margin: 0;
+}
+
+.lineHeight42 {
+  line-height: 42px;
+  text-align: right !important;
+}
+
+.readContent {
+  // height: 117px;
+  border-bottom: 1px solid #e8e8e8;
+
+  .title {
+    height: 42px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+
+    .num {
+      background: #eeeced;
+    }
+
+    span {
+      font-size: 14px;
+      font-family: Microsoft YaHei UI, Microsoft YaHei UI-Bold;
+      font-weight: 700;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.65);
+      line-height: 18px;
+      // padding: 0 5px;
+      width: 30px;
+    }
+
+    p {
+      width: calc(100% - 40px);
+      font-size: 14px;
+      font-family: Microsoft YaHei UI, Microsoft YaHei UI-Bold;
+      font-weight: 700;
+      text-align: left;
+      // color: #d6001c;
+      line-height: 36px;
+      margin-left: 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      margin-bottom: 0;
+    }
+  }
+
+  .text {
+    font-size: 12px;
+    font-family: Microsoft YaHei UI, Microsoft YaHei UI-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .content {
+    font-size: 14px;
+    font-family: Microsoft YaHei UI, Microsoft YaHei UI-Regular;
+    font-weight: 400;
+    text-align: left;
+    padding: 0px 0 10px 0;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 22px;
+    cursor: pointer;
+  }
+}
