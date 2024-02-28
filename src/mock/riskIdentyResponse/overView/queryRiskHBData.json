@@ -1,0 +1,25 @@
+{
+    "code": 10000,
+    "msg": "成功",
+    "data": [
+        {
+            "fsjts": "2",
+            "fxtsbcount": "0",
+            "ffxzs": "2",
+            "ffxzshb": "0.00",
+            "fpayment": "43.34万元",
+            "fpaymentxtsb": "0.00万元",
+            "fpaymentsjts": "43.34万元",
+            "fpaymenthb": "0.00",
+            "ftaxes": "2.42万元",
+            "ftaxesxtsb": "0.00万元",
+            "ftaxessjts": "2.42万元",
+            "ftaxeshb": "0.00",
+            "zgl": "50.00",
+            "fxtsbzgl": "0.00",
+            "fsjtszgl": "50.00",
+            "fyydfxslhb": "0.00"
+        }
+    ],
+    "success": true
+}

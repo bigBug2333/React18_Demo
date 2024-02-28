@@ -1,0 +1,43 @@
+{
+    "code": 10000,
+    "msg": "成功",
+    "data": [
+        {
+            "fcode": "10101",
+            "fname": "增值税",
+            "szzb": "0.50",
+            "fxtsbcount": "1"
+        },
+        {
+            "fcode": "10105",
+            "fname": "企业所得税",
+            "szzb": "0.50",
+            "fxtsbcount": "1"
+        },
+        {
+            "fcode": "10110",
+            "fname": "房产税",
+            "szzb": "0.00",
+            "fxtsbcount": "0"
+        },
+        {
+            "fcode": "10112",
+            "fname": "城镇土地使用税",
+            "szzb": "0.00",
+            "fxtsbcount": "0"
+        },
+        {
+            "fcode": "10111",
+            "fname": "印花税",
+            "szzb": "0.00",
+            "fxtsbcount": "0"
+        },
+        {
+            "fcode": "10121",
+            "fname": "环境保护税",
+            "szzb": "0.00",
+            "fxtsbcount": "0"
+        }
+    ],
+    "success": true
+}

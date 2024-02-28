@@ -1,0 +1,12 @@
+{
+    "code": 10000,
+    "msg": "成功",
+    "data": [
+        {
+            "fcode": "0",
+            "fname": "综合整改率",
+            "fSynthesis": "0.50"
+        }
+    ],
+    "success": true
+}
