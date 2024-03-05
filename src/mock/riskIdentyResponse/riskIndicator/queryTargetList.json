@@ -1,0 +1,317 @@
+{
+    "code": 10000,
+    "msg": "成功",
+    "data": {
+        "groupTarget": [
+            {
+                "ftargetcode": "fz001",
+                "ftargetname": "本年企业所得税纳税调增项目金额低于去年",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "fz002",
+                "ftargetname": "本年企业所得税纳税调减项目金额高于去年",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "fz003",
+                "ftargetname": "营业收入变动幅度与营业成本变动幅度不匹配（年度）",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "fz004",
+                "ftargetname": "营业收入变动幅度与管理费用和销售费用变动幅度不匹配（年度）",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "fz005",
+                "ftargetname": "营业收入变动幅度与营业利润变动幅度不匹配（年度）",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "fz006",
+                "ftargetname": "主营业务收入变动幅度与企业所得税变动幅度不匹配（年度）",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "fz007",
+                "ftargetname": "研发人员工资占全体员工工资比例过高，需要关注研发人员工资的合理性。",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "fz008",
+                "ftargetname": "加计扣除研发费与会计口径研发费差异过高，需要关注税务调整是否准确。",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "fz009",
+                "ftargetname": "加计扣除研发费与高新技术企业研发费差异过高，需要关注税务调整是否准确。",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "fz010",
+                "ftargetname": "销项税额增长率与进项税额增长率相比偏高",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "fz011",
+                "ftargetname": "环保税变动异常",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "fz012",
+                "ftargetname": "营业收入变动幅度与营业成本变动幅度不匹配（季度）",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "fz013",
+                "ftargetname": "营业收入变动幅度与管理费用和销售费用变动幅度不匹配（季度）",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "fz014",
+                "ftargetname": "营业收入变动幅度与营业利润变动幅度不匹配（季度）",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "fz015",
+                "ftargetname": "主营业务收入变动幅度与企业所得税变动幅度不匹配（季度）",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "fz016",
+                "ftargetname": "城镇土地使用税与无形资产-土地变动比率异常",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "jz001",
+                "ftargetname": "企业所得税申报收入与增值税申报收入存在差异",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "jz002",
+                "ftargetname": "利润表收入不等于增值税申报收入",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "jz003",
+                "ftargetname": "简易项目进项税转出异常",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "jz004",
+                "ftargetname": "免税项目进项税额转出异常",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "jz005",
+                "ftargetname": "非正常损失进项税额转出问题",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "jz006",
+                "ftargetname": "企业所得税申报收入不等于利润表收入",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "jz007",
+                "ftargetname": "存在收入的其他调减项",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "jz008",
+                "ftargetname": "存在视同销售收入",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "jz009",
+                "ftargetname": "存在特殊调整项目",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "jz010",
+                "ftargetname": "资产损失占营业外支出比",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "jz011",
+                "ftargetname": "租赁费不等于印花税的合同计税金额",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "jz012",
+                "ftargetname": "商业保险费不等于商业保险合同计税金额",
+                "ftargettype": "Risk.GroupTarget"
+            },
+            {
+                "ftargetcode": "jz013",
+                "ftargetname": "汇算清缴表中房产原值大于申报房产税的资产原值",
+                "ftargettype": "Risk.GroupTarget"
+            }
+        ],
+        "plateTarget": [
+            {
+                "fplatecode": "13",
+                "ftargetcode": "fz001-1687160990775",
+                "fplatename": "资本",
+                "ftargetname": "本年企业所得税纳税调增项目金额低于去年",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "02",
+                "ftargetcode": "fz001-1690790519702",
+                "fplatename": "电力",
+                "ftargetname": "本年企业所得税纳税调增项目金额低于去年",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "18",
+                "ftargetcode": "fz001-1691736395456",
+                "fplatename": "物业",
+                "ftargetname": "本年企业所得税纳税调增项目金额低于去年",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "02",
+                "ftargetcode": "fz002-1690790540051",
+                "fplatename": "电力",
+                "ftargetname": "本年企业所得税纳税调减项目金额高于去年",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "02",
+                "ftargetcode": "fz005-1690790590502",
+                "fplatename": "电力",
+                "ftargetname": "营业收入变动幅度与营业利润变动幅度不匹配（年度）",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "02",
+                "ftargetcode": "fz008-1690790623076",
+                "fplatename": "电力",
+                "ftargetname": "加计扣除研发费与会计口径研发费差异过高，需要关注税务调整是否准确。",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "02",
+                "ftargetcode": "fz011-1690790636792",
+                "fplatename": "电力",
+                "ftargetname": "环保税变动异常",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "04",
+                "ftargetcode": "fz011-1692752446511",
+                "fplatename": "交通",
+                "ftargetname": "环保税变动异常",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "02",
+                "ftargetcode": "fz014-1690790669574",
+                "fplatename": "电力",
+                "ftargetname": "营业收入变动幅度与营业利润变动幅度不匹配（季度）",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "04",
+                "ftargetcode": "fz016-1692752754377",
+                "fplatename": "交通",
+                "ftargetname": "城镇土地使用税与无形资产-土地变动比率异常",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "02",
+                "ftargetcode": "jz001-1690790706437",
+                "fplatename": "电力",
+                "ftargetname": "企业所得税申报收入与增值税申报收入存在差异",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "18",
+                "ftargetcode": "jz001-1691736313887",
+                "fplatename": "物业",
+                "ftargetname": "企业所得税申报收入与增值税申报收入存在差异",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "02",
+                "ftargetcode": "jz003-1690790732807",
+                "fplatename": "电力",
+                "ftargetname": "简易项目进项税转出异常",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "18",
+                "ftargetcode": "jz003-1691736427700",
+                "fplatename": "物业",
+                "ftargetname": "简易项目进项税转出异常",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "02",
+                "ftargetcode": "jz004-1690790742610",
+                "fplatename": "电力",
+                "ftargetname": "免税项目进项税额转出异常",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "02",
+                "ftargetcode": "jz005-1690790753520",
+                "fplatename": "电力",
+                "ftargetname": "非正常损失进项税额转出问题",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "02",
+                "ftargetcode": "jz006-1690790763210",
+                "fplatename": "电力",
+                "ftargetname": "企业所得税申报收入不等于利润表收入",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "02",
+                "ftargetcode": "jz007-1690790774654",
+                "fplatename": "电力",
+                "ftargetname": "存在收入的其他调减项",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "02",
+                "ftargetcode": "jz008-1690790852883",
+                "fplatename": "电力",
+                "ftargetname": "存在视同销售收入",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "02",
+                "ftargetcode": "jz009-1690790869832",
+                "fplatename": "电力",
+                "ftargetname": "存在特殊调整项目",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "02",
+                "ftargetcode": "jz010-1690790883343",
+                "fplatename": "电力",
+                "ftargetname": "资产损失占营业外支出比",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "18",
+                "ftargetcode": "jz010-1691736461826",
+                "fplatename": "物业",
+                "ftargetname": "资产损失占营业外支出比",
+                "ftargettype": "Risk.PlateTarget"
+            },
+            {
+                "fplatecode": "02",
+                "ftargetcode": "jz013-1690790905104",
+                "fplatename": "电力",
+                "ftargetname": "汇算清缴表中房产原值大于申报房产税的资产原值",
+                "ftargettype": "Risk.PlateTarget"
+            }
+        ]
+    },
+    "success": true
+}

@@ -1,0 +1,42 @@
+{
+    "code": 10000,
+    "msg": "成功",
+    "data": [
+        {
+            "fCode": "-1",
+            "fName": "全部",
+            "fTranCode": ""
+        },
+        {
+            "fCode": "10101",
+            "fName": "增值税",
+            "fTranCode": "1"
+        },
+        {
+            "fCode": "10105",
+            "fName": "企业所得税",
+            "fTranCode": "5"
+        },
+        {
+            "fCode": "10110",
+            "fName": "房产税",
+            "fTranCode": "12"
+        },
+        {
+            "fCode": "10111",
+            "fName": "印花税",
+            "fTranCode": "16"
+        },
+        {
+            "fCode": "10112",
+            "fName": "城镇土地使用税",
+            "fTranCode": "15"
+        },
+        {
+            "fCode": "10121",
+            "fName": "环境保护税",
+            "fTranCode": "89"
+        }
+    ],
+    "success": true
+}

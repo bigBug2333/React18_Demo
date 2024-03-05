@@ -1,0 +1,10 @@
+{
+    "code": 10000,
+    "msg": "成功",
+    "data": {
+        "Risk.PlateTarget": "板块通用指标",
+        "Risk.EntTarget": "企业个性指标",
+        "Risk.GroupTarget": "集团通用指标"
+    },
+    "success": true
+}

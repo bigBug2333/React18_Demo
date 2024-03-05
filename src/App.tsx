@@ -21,7 +21,6 @@ function ToPage1() {
   // 加载完这个组件之后实现跳转
   useEffect(() => {
     // 加载完组件之后执行这里的代码
-    // navigateTo("/page1");
     navigateTo("/lawLibrary/lawLibrary");
     message.warning("您已经登录过了！");
   }, [])
@@ -39,6 +38,7 @@ function BeforeRouterEnter() {
   */
   const location = useLocation()
   let token = localStorage.getItem("token");
+  console.log(token)
   //1、如果访问的是登录页面， 并且有token， 跳转到首页
   if (location.pathname === "/login" && token) {
     // 这里不能直接用 useNavigate 来实现跳转 ，因为需要BeforeRouterEnter是一个正常的JSX组件

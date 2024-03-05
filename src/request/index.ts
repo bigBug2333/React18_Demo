@@ -46,6 +46,12 @@ export const queryMenuByToken = (data: string | null) => {
   return instance.post('/base/common/queryMenuByToken/' + data);
 };
 
+// 风险概览
+// 1.获取概览上方数据
+export const queryRiskHBData = (data: any) => {
+  return instance.post('/taxmanagerisk/riskOlive/queryRiskHBData', data);
+};
+
 // 税收法规库
 // 1.常用搜索+轮播图+Tab
 export const queryHomeFixedNew = () => {
@@ -65,6 +71,7 @@ export const queryArticleCount = (fcolumnid: string) => {
 export const queryHomeData = (data: any) => {
   return instance.post('/gttaxmanage/Home/queryHomeData', data);
 };
+
 // 获取法规详情
 export const queryRepArticleContent = (data: any) => {
   return instance.post('/gttaxmanage/ArticleContent/queryRepArticleContent', data);

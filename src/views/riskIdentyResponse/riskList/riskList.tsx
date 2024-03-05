@@ -5,8 +5,8 @@ import {
     ClearOutlined,
 } from '@ant-design/icons';
 import type { DataNode, TreeProps } from 'antd/es/tree';
-import getEntTreeData from '../../mock/riskIdentyResponse/getEntTree.json'
-import queryTaskListData from '../../mock/riskIdentyResponse/queryTaskList.json'
+import getEntTreeData from '../../../mock/riskIdentyResponse/getEntTree.json'
+import queryTaskListData from '../../../mock/riskIdentyResponse/queryTaskList.json'
 
 const View = () => {
     const onSelect: TreeProps['onSelect'] = (selectedKeys, info) => {
@@ -42,20 +42,10 @@ const View = () => {
     };
     console.log(getEntTreeData.data, queryTaskListData.rows)
 
-    const dataSource = [
-        {
-            key: '1',
-            name: '胡彦斌',
-            age: 32,
-            address: '西湖区湖底公园1号',
-        },
-        {
-            key: '2',
-            name: '胡彦祖',
-            age: 42,
-            address: '西湖区湖底公园1号',
-        },
-    ];
+    const dataSource = queryTaskListData.rows.map((item, index) => ({
+        ...item,
+        key: index.toString(),
+    }));;
 
     const columns = [
         {
@@ -174,7 +164,7 @@ const View = () => {
 
                             />
                         </div>
-                        <Table dataSource={queryTaskListData.rows} columns={columns} pagination={false} className='tax-flex-item' />
+                        <Table dataSource={dataSource} columns={columns} pagination={false} className='tax-flex-item' />
 
                     </div>
                 </div >

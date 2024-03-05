@@ -1,0 +1,872 @@
+{
+    "code": 10000,
+    "msg": "成功",
+    "data": {
+        "total": 29,
+        "rows": [
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "企业所得税申报收入与增值税申报收入存在差异",
+                "fTargetCode": "jz001",
+                "fTargetShow": "增值税申报年度累计销售额与企业所得税年度申报营业收入存在差异，可能存在未如实申报增值税或企业所得税应税收入问题，造成少缴税款。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "增值税",
+                "normal": "增值税申报收入与企业所得税申报收入比对处于增值税年度申报收入-企业所得税年度营业收入=0为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "d0702c1627104fb2953482bb50700936",
+                        "fTargetCode": "jz001",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "增值税申报收入与企业所得税申报收入比对处于增值税年度申报收入-企业所得税年度营业收入≠0为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "非正常损失进项税额转出问题",
+                "fTargetCode": "jz005",
+                "fTargetShow": "根据增值税政策规定，企业购进货物发生非正常损失，其已抵扣的进项税额不予抵扣。企业在企业所得税年报中申报存货损失，但在增值税申报中未作进项转出，可能存在将不得抵扣的进项税额用于抵扣的风险，造成少缴增值税问题。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "增值税",
+                "normal": "当存货损失账载金额>200万；且非正常损失进项税额转出额≠0时，为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "81944fd7845545239a4663d8b625dd64",
+                        "fTargetCode": "jz005",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "当存货损失账载金额>200万；且非正常损失进项税额转出额=0时，为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "简易项目进项税转出异常",
+                "fTargetCode": "jz003",
+                "fTargetShow": "根据增值税政策规定，用于简易计税项目的进项税额不得抵扣。若企业存在简易计税项目且有进项税额抵扣，则可能存在未转出对应进项税额或转出数据不准确风险，造成少缴增值税问题。",
+                "fValueType": null,
+                "fCountTime": "月度",
+                "fTaxName": "增值税",
+                "normal": "当本期按简易办法计税销售额＞0，本期进项税>0且本期简易计税项目进项税转出≠0 时，为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "1207e1f480754ff48379979fa8786e5d",
+                        "fTargetCode": "jz003",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "当本期按简易办法计税销售额＞0，本期进项税>0且本期简易计税项目进项税转出=0时，为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "免税项目进项税额转出异常",
+                "fTargetCode": "jz004",
+                "fTargetShow": "根据增值税政策规定，用于免税项目的进项税额不得抵扣。若企业存在免税项目且有进项税额抵扣，则可能存在未转出对应进项税额或转出数据不准确风险，造成少缴增值税问题。",
+                "fValueType": null,
+                "fCountTime": "月度",
+                "fTaxName": "增值税",
+                "normal": "当本期免税销售额＞0，本期进项税>0且本期免税项目进项税转出≠0时，为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "82082b1edba6481f94f1a117e6e17c59",
+                        "fTargetCode": "jz004",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "当本期免税销售额＞0，本期进项税>0且本期免税项目进项税转出＝0时，为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "利润表收入不等于增值税申报收入",
+                "fTargetCode": "jz002",
+                "fTargetShow": "增值税申报收入与利润表收入比对用于衡量企业增值税申报收入与利润表收入是否有差异。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "增值税",
+                "normal": "增值税申报收入与利润表收入比对处于本期利润表收入-本期增值税申报收入=0为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "7ef7fdfee73a4b1aadfa2084b721aba3",
+                        "fTargetCode": "jz002",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "增值税申报收入与利润表收入比对处于本期利润表收入-本期增值税申报收入≠0为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "销项税额增长率与进项税额增长率相比偏高",
+                "fTargetCode": "fz010",
+                "fTargetShow": "销项税额变动与实际抵扣进项税额变动弹性系数用于衡量企业销项税变动情况与进项税变动情况是否保持一致。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "增值税",
+                "normal": "销项税额变动与实际抵扣进项税额变动弹性系数处于85%-115%为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "31e86aced26d4f08bcf06ec0fa33b71a",
+                        "fTargetCode": "fz010",
+                        "fLevel": 3,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "销项税额变动与实际抵扣进项税额变动弹性系数处于（70%,85%],[115%,130%)为低风险"
+                    },
+                    {
+                        "fCode": "0da8139a2b024b4d9615775a3320d0b0",
+                        "fTargetCode": "fz010",
+                        "fLevel": 2,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "销项税额变动与实际抵扣进项税额变动弹性系数处于（50%,70%],[130%,150%)为中风险"
+                    },
+                    {
+                        "fCode": "2e27b64959a949b8a8354ad4755c68f1",
+                        "fTargetCode": "fz010",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "销项税额变动与实际抵扣进项税额变动弹性系数处于(无穷小50%],[150%,无穷大)为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "主营业务收入变动幅度与企业所得税变动幅度不匹配（季度）",
+                "fTargetCode": "fz015",
+                "fTargetShow": "说明企业所得税税款增加的幅度远小于营业收入增加幅度或企业所得税税款减少幅度远大于营业收入减少幅度，存在少缴企业所得税风险。",
+                "fValueType": null,
+                "fCountTime": "季度",
+                "fTaxName": "企业所得税",
+                "normal": "营业收入变动与企业所得税变动弹性系数处于95%-105%为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "2af56ca6e7f0496a8240b4bc8e63a7b7",
+                        "fTargetCode": "fz015",
+                        "fLevel": 3,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动与企业所得税变动弹性系数处于（90%,95%],[105%,110%)为低风险"
+                    },
+                    {
+                        "fCode": "78750d2cd9fd4904be7f07e08c004330",
+                        "fTargetCode": "fz015",
+                        "fLevel": 2,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动与企业所得税变动弹性系数处于（50%,90%],[110%,150%)为中风险"
+                    },
+                    {
+                        "fCode": "31f9710e240c4c9b803b6c9404d30b77",
+                        "fTargetCode": "fz015",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动与企业所得税变动弹性系数处于(无穷小50%],[150%,无穷大)为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "企业所得税申报收入不等于利润表收入",
+                "fTargetCode": "jz006",
+                "fTargetShow": "企业所得税申报收入与利润表收入对比，用于衡量企业所得税季度申报收入与利润表收入是否有差异。",
+                "fValueType": null,
+                "fCountTime": "季度",
+                "fTaxName": "企业所得税",
+                "normal": "当本期利润表收入-本期企业所得税申报收入=0时，为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "bc5385b2914f454bb11cb7e4861e2a6d",
+                        "fTargetCode": "jz006",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "当本期利润表收入-本期企业所得税申报收入≠0时，为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "主营业务收入变动幅度与企业所得税变动幅度不匹配（年度）",
+                "fTargetCode": "fz006",
+                "fTargetShow": "说明企业所得税税款增加的幅度远小于营业收入增加幅度或企业所得税税款减少幅度远大于营业收入减少幅度，存在少缴企业所得税风险。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "企业所得税",
+                "normal": "营业收入变动与企业所得税变动弹性系数处于95%-105%为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "92759c1dc7dc407dbe89558b8823bbd0",
+                        "fTargetCode": "fz006",
+                        "fLevel": 3,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动与企业所得税变动弹性系数处于（90%,95%],[105%,110%)为低风险"
+                    },
+                    {
+                        "fCode": "2c20416851e34050ac64331db3824562",
+                        "fTargetCode": "fz006",
+                        "fLevel": 2,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动与企业所得税变动弹性系数处于（50%,90%],[110%,150%)为中风险"
+                    },
+                    {
+                        "fCode": "4fc0b74b75b647988a590c2260865adb",
+                        "fTargetCode": "fz006",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动与企业所得税变动弹性系数处于(无穷小50%],[150%,无穷大)为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "营业收入变动幅度与营业成本变动幅度不匹配（季度）",
+                "fTargetCode": "fz012",
+                "fTargetShow": "营业收入变动与营业成本变动弹性系数，用于衡量企业的收入和成本是否匹配。",
+                "fValueType": null,
+                "fCountTime": "季度",
+                "fTaxName": "企业所得税",
+                "normal": "营业收入变动与营业成本变动弹性系数处于95%-105%为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "08ad1bc718b84421a8309567e659f8d3",
+                        "fTargetCode": "fz012",
+                        "fLevel": 3,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动与营业成本变动弹性系数处于（90%,95%],[105%,110%)为低风险"
+                    },
+                    {
+                        "fCode": "2c898156b57f495d83c59d6861c59709",
+                        "fTargetCode": "fz012",
+                        "fLevel": 2,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动与营业成本变动弹性系数处于（50%,90%],[110%,150%)为中风险"
+                    },
+                    {
+                        "fCode": "1bad3b67b21b42caafeaaf40f608bb52",
+                        "fTargetCode": "fz012",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动与营业成本变动弹性系数处于(无穷小,,50%],[150%,无穷大)为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "营业收入变动幅度与营业成本变动幅度不匹配（年度）",
+                "fTargetCode": "fz003",
+                "fTargetShow": "营业收入变动与营业成本变动弹性系数，用于衡量企业的收入和成本是否匹配。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "企业所得税",
+                "normal": "营业收入变动与营业成本变动弹性系数处于95%-105%为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "3ac83cb69e1b4fdab9d4fc174ea7fa8e",
+                        "fTargetCode": "fz003",
+                        "fLevel": 3,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动与营业成本变动弹性系数处于（90%,95%],[105%,110%)为低风险"
+                    },
+                    {
+                        "fCode": "a1f549f11ddd4738b96f529fe5a51ed7",
+                        "fTargetCode": "fz003",
+                        "fLevel": 2,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动与营业成本变动弹性系数处于（50%,90%],[110%,150%)为中风险"
+                    },
+                    {
+                        "fCode": "4ce698be28374e61986bf8d6c2f1133d",
+                        "fTargetCode": "fz003",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动与营业成本变动弹性系数处于(无穷小,,50%],[150%,无穷大)为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "本年企业所得税纳税调增项目金额低于去年",
+                "fTargetCode": "fz001",
+                "fTargetShow": "年度企业所得税纳税调增项变动率，用于衡量企业本年度企业所得税纳税调增项目金额的变动情况。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "企业所得税",
+                "normal": "年度企业所得税纳税调增项变动率大于-10%为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "e27b54f3acdd42819a59ded48323d99b",
+                        "fTargetCode": "fz001",
+                        "fLevel": 3,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "年度企业所得税纳税调增项变动率处于(-20%,-10%]为低风险"
+                    },
+                    {
+                        "fCode": "daa0ee5bc390421aad6fca2de924da78",
+                        "fTargetCode": "fz001",
+                        "fLevel": 2,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "年度企业所得税纳税调增项变动率处于(-50%,-20%]为中风险"
+                    },
+                    {
+                        "fCode": "2b3ecf9eca83444cb58a4a6487c02ddd",
+                        "fTargetCode": "fz001",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "年度企业所得税纳税调增项变动率处于(无穷小,-50%]为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "本年企业所得税纳税调减项目金额高于去年",
+                "fTargetCode": "fz002",
+                "fTargetShow": "年度企业所得税纳税调减项变动率用于衡量企业本年度企业所得税纳税调减项目金额的变动情况。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "企业所得税",
+                "normal": "年度企业所得税纳税调减项变动率小于等于10%为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "62bace4bf10d47c8b2590c7ad52f4ca4",
+                        "fTargetCode": "fz002",
+                        "fLevel": 3,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "年度企业所得税纳税调减项变动率处于(10%,20%]为低风险"
+                    },
+                    {
+                        "fCode": "1d05b95a60df4d4d82c816d84deab671",
+                        "fTargetCode": "fz002",
+                        "fLevel": 2,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "年度企业所得税纳税调减项变动率处于(20%,50%]为中风险"
+                    },
+                    {
+                        "fCode": "433ab68c0dd047f3b08385016bc6d342",
+                        "fTargetCode": "fz002",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "年度企业所得税纳税调减项变动率处于(50%,无穷大]为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "存在特殊调整项目",
+                "fTargetCode": "jz009",
+                "fTargetShow": "若A>500万，视为异常，企业存在资产重组、政策性搬迁等特殊事项，该类特殊事项税会处理相对复杂，涉税风险较高。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "企业所得税",
+                "normal": "当A=特殊事项调整项目调减金额+“其他”调减金额-房地产开发企业特定业务计算的纳税调整额≤500万时，为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "d5a1fdfb95b84629afe5d7063ce388a0",
+                        "fTargetCode": "jz009",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "当A=特殊事项调整项目调减金额+“其他”调减金额-房地产开发企业特定业务计算的纳税调整额>500万时，为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "营业收入变动幅度与管理费用和销售费用变动幅度不匹配（年度）",
+                "fTargetCode": "fz004",
+                "fTargetShow": "营业收入变动与管理和销售费用变动弹性系数，用于衡量企业营业收入与管理费用和销售费用变动合理性。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "企业所得税",
+                "normal": "营业收入变动幅度与管理费用和销售费用变动幅度不匹配处于95%-105%为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "6a1e2b03fdeb4675a65c2ae0280e323e",
+                        "fTargetCode": "fz004",
+                        "fLevel": 3,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动幅度与管理费用和销售费用变动幅度不匹配处于（90%,95%],[105%,110%)为低风险"
+                    },
+                    {
+                        "fCode": "f13ad71215d4418eb386253a04ecd034",
+                        "fTargetCode": "fz004",
+                        "fLevel": 2,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动幅度与管理费用和销售费用变动幅度不匹配处于（50%,90%],[110%,150%)为中风险"
+                    },
+                    {
+                        "fCode": "5c3a161398ad4ffeb89ccc00a6491f81",
+                        "fTargetCode": "fz004",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动幅度与管理费用和销售费用变动幅度不匹配处于(无穷小,0%],[150%,无穷大)为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "加计扣除研发费与高新技术企业研发费差异过高，需要关注税务调整是否准确。",
+                "fTargetCode": "fz009",
+                "fTargetShow": "加计扣除研发费与高新技术企业研发费用占比，用于衡量加计扣除研发费用的合理性。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "企业所得税",
+                "normal": "加计扣除研发费与高新技术企业研发费用占比处为80%为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "9f99ee26af614527b73d4f7df7d221d4",
+                        "fTargetCode": "fz009",
+                        "fLevel": 3,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "加计扣除研发费与高新技术企业研发费用占比处于（0%,80%）为低风险"
+                    },
+                    {
+                        "fCode": "af1ec3ced8474fa18c81a40b59d1a258",
+                        "fTargetCode": "fz009",
+                        "fLevel": 2,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "加计扣除研发费与高新技术企业研发费用占比处于（80%,90%]为中风险"
+                    },
+                    {
+                        "fCode": "010969fb77eb45d3bc40d96c0de86510",
+                        "fTargetCode": "fz009",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "加计扣除研发费与高新技术企业研发费用占比处于（90%,无穷大]为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "加计扣除研发费与会计口径研发费差异过高，需要关注税务调整是否准确。",
+                "fTargetCode": "fz008",
+                "fTargetShow": "加计扣除研发费与会计口径研发支出占比，用于衡量加计扣除研发费用的的合理性。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "企业所得税",
+                "normal": "加计扣除研发费与会计口径研发支出占比处为75%为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "cba9a0ad20a74e3097478ce8430246c5",
+                        "fTargetCode": "fz008",
+                        "fLevel": 3,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "加计扣除研发费与会计口径研发支出占比处于（0%,75%）为低风险"
+                    },
+                    {
+                        "fCode": "fa61a02c61e64407814ce12e544c7467",
+                        "fTargetCode": "fz008",
+                        "fLevel": 2,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "加计扣除研发费与会计口径研发支出占比处于（75%,80%]为中风险"
+                    },
+                    {
+                        "fCode": "2115a682bd4f4191a069f02fc1315734",
+                        "fTargetCode": "fz008",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "加计扣除研发费与会计口径研发支出占比处于（80%,无穷大]为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "研发人员工资占全体员工工资比例过高，需要关注研发人员工资的合理性。",
+                "fTargetCode": "fz007",
+                "fTargetShow": "研发人员总工资占比，用于衡量企业研发人员工资占公司全部人员工资的比例。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "企业所得税",
+                "normal": "研发人员总工资占比处于0%-11.5%为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "108d7ec312b142f2adc01569487e7c2a",
+                        "fTargetCode": "fz007",
+                        "fLevel": 3,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "研发人员总工资占比处于（11.5%,15%]为低风险"
+                    },
+                    {
+                        "fCode": "d2b086d049ec4f1a8e4799fde98d9a29",
+                        "fTargetCode": "fz007",
+                        "fLevel": 2,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "研发人员总工资占比处于（15%,25%]为中风险"
+                    },
+                    {
+                        "fCode": "9bf0383335e94c099a9dadc2c24279cd",
+                        "fTargetCode": "fz007",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "研发人员总工资占比处于（25%,无穷大]为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "营业收入变动幅度与营业利润变动幅度不匹配（季度）",
+                "fTargetCode": "fz014",
+                "fTargetShow": "营业收入变动与营业利润变动弹性系数，用于衡量企业营业收入和营业利润变动合理性。",
+                "fValueType": null,
+                "fCountTime": "季度",
+                "fTaxName": "企业所得税",
+                "normal": "营业收入变动与营业利润变动弹性系数处于95%-105%为正常；",
+                "levelExplainList": [
+                    {
+                        "fCode": "297ccaf6bc984b7c8cf36e933db999c8",
+                        "fTargetCode": "fz014",
+                        "fLevel": 3,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动与营业利润变动弹性系数处于（90%,95%],[105%,110%)为低风险；"
+                    },
+                    {
+                        "fCode": "3152420cb56149de958d3dd118c2c4f0",
+                        "fTargetCode": "fz014",
+                        "fLevel": 2,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动与营业利润变动弹性系数处于（50%,90%],[110%,150%)为中风险；"
+                    },
+                    {
+                        "fCode": "607a2406cbe841419e0d3eeea0d4b96e",
+                        "fTargetCode": "fz014",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动与营业利润变动弹性系数处于（无穷小,50%],[150%,无穷大)为高风险。"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "营业收入变动幅度与管理费用和销售费用变动幅度不匹配（季度）",
+                "fTargetCode": "fz013",
+                "fTargetShow": "营业收入变动与管理和销售费用变动弹性系数，用于衡量企业营业收入与管理费用和销售费用变动合理性。",
+                "fValueType": null,
+                "fCountTime": "季度",
+                "fTaxName": "企业所得税",
+                "normal": "营业收入变动幅度与管理费用和销售费用变动幅度不匹配处于95%-105%为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "a1a35a55c6324704879fd974d3d726dd",
+                        "fTargetCode": "fz013",
+                        "fLevel": 3,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动幅度与管理费用和销售费用变动幅度不匹配处于（90%,95%],[105%,110%)为低风险"
+                    },
+                    {
+                        "fCode": "9c822eb4971748ca9fce5ed765555b5f",
+                        "fTargetCode": "fz013",
+                        "fLevel": 2,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动幅度与管理费用和销售费用变动幅度不匹配处于（50%,90%],[110%,150%)为中风险"
+                    },
+                    {
+                        "fCode": "ab3273c3eabd4bbe8bb0d5f20b5e6a45",
+                        "fTargetCode": "fz013",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动幅度与管理费用和销售费用变动幅度不匹配处于(无穷小,0%],[150%,无穷大)为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "营业收入变动幅度与营业利润变动幅度不匹配（年度）",
+                "fTargetCode": "fz005",
+                "fTargetShow": "营业收入变动与营业利润变动弹性系数，用于衡量企业营业收入和营业利润变动合理性。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "企业所得税",
+                "normal": "营业收入变动与营业利润变动弹性系数处于95%-105%为正常；",
+                "levelExplainList": [
+                    {
+                        "fCode": "c2bdb5203e334e35ac1aa7aa55b7a1e2",
+                        "fTargetCode": "fz005",
+                        "fLevel": 3,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动与营业利润变动弹性系数处于（90%,95%],[105%,110%)为低风险；"
+                    },
+                    {
+                        "fCode": "6543fce9d1d0421097d332aed52ec324",
+                        "fTargetCode": "fz005",
+                        "fLevel": 2,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动与营业利润变动弹性系数处于（50%,90%],[110%,150%)为中风险；"
+                    },
+                    {
+                        "fCode": "6e685281313e4d268687eddc4aeae643",
+                        "fTargetCode": "fz005",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "营业收入变动与营业利润变动弹性系数处于（无穷小,50%],[150%,无穷大)为高风险。"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "资产损失占营业外支出比",
+                "fTargetCode": "jz010",
+                "fTargetShow": "若A>100万且B>70%，即营业外支出金额远大于资产损失申报金额，视为资产损失异常，可能存在多列营业外支出、少缴企业所得税问题。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "企业所得税",
+                "normal": "当A=营业外支出>100万 , 且B=（营业外支出-资产损失）/（营业外支出）≤70%时，为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "315b951c49d5425cb95e2a55c184a066",
+                        "fTargetCode": "jz010",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "当A=营业外支出>100万，且B=（营业外支出-资产损失）/（营业外支出）>70%时，为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "存在视同销售收入",
+                "fTargetCode": "jz008",
+                "fTargetShow": "若A>200万、B>200万，视为异常，可能存在多记销售成本、少缴企业所得税的情况。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "企业所得税",
+                "normal": "当A=视同销售收入“调增金额”≤200万； B=视同销售成本“调减金额”≤200万时，为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "5b08fe279af049339a9777b338a28677",
+                        "fTargetCode": "jz008",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "当A=视同销售收入“调增金额”>200万；或B=视同销售成本“调减金额”>200万时，为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "存在收入的其他调减项",
+                "fTargetCode": "jz007",
+                "fTargetShow": "若A>0，视为异常，可能存在少记应税收入，少缴企业所得税、增值税的问题。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "企业所得税",
+                "normal": "当收入（其他）栏调减金额=0，为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "036e71806a854b2d9b3ab9f3ba78e2d6",
+                        "fTargetCode": "jz007",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "当收入（其他）栏调减金额>0，为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "汇算清缴表中房产原值大于申报房产税的资产原值",
+                "fTargetCode": "jz013",
+                "fTargetShow": "房产税缴纳的准确性，用于衡量企业是否存在少缴纳房产税的风险。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "房产税",
+                "normal": "当企业所得税汇算清缴申报的房屋建筑的原值 ≤城镇土地使用税房产税申报表上的从价计证房产税的房产原值时，为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "8b66f76b1167444b988f2ddd16e2a13f",
+                        "fTargetCode": "jz013",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "当企业所得税汇算清缴申报的房屋建筑的原值 ＞城镇土地使用税房产税申报表上的从价计证房产税的房产原值时，为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "租赁费不等于印花税的合同计税金额",
+                "fTargetCode": "jz011",
+                "fTargetShow": "租赁业务印花税缴纳准确性，用于衡量企业发生财产租赁行为是否有少缴纳印花税行为的风险。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "印花税",
+                "normal": "当企业所得税汇算清缴申报表上的租赁费用≤印花税申报财产租赁合同的本年计税金额时，为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "9def47b38aba4c66abce2a59f1bbf12e",
+                        "fTargetCode": "jz011",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "当企业所得税汇算清缴申报表上的租赁费用> 印花税申报财产租赁合同的本年计税金额时，为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "商业保险费不等于商业保险合同计税金额",
+                "fTargetCode": "jz012",
+                "fTargetShow": "投保商业保险印花税缴纳准确性，用于衡量企业发生投保的商业保险行为是否有少缴纳印花税行为的风险。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "印花税",
+                "normal": "当企业所得税汇算清缴申报保险费用≤印花税申报商业保险合同的本年计税金额时，为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "ed09260e147d456a9d33e26ddff59072",
+                        "fTargetCode": "jz012",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "当企业所得税汇算清缴申报保险费用> 印花税申报商业保险合同的本年计税金额时，为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "城镇土地使用税与无形资产-土地变动比率异常",
+                "fTargetCode": "fz016",
+                "fTargetShow": "城镇土地使用税变动率和无形资产（土地）变动率配比值，用于衡量一般情况下企业新增土地与应缴城镇土地使用税是否在合理范围内变动。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "城镇土地使用税",
+                "normal": "城镇土地使用税变动率和无形资产（土地）变动率配比值处为100%为低风险；",
+                "levelExplainList": [
+                    {
+                        "fCode": "31379c3254154ecb8caa780e820af8ee",
+                        "fTargetCode": "fz016",
+                        "fLevel": 3,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "城镇土地使用税变动率和无形资产（土地）变动率配比值处于（110%,120%]为低风险；"
+                    },
+                    {
+                        "fCode": "fb01d3a72f594187b37477d9b121c768",
+                        "fTargetCode": "fz016",
+                        "fLevel": 2,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "城镇土地使用税变动率和无形资产（土地）变动率配比值处于（120%,150%]为中风险；"
+                    },
+                    {
+                        "fCode": "5f393bf5af004585a4193ae7dacd8850",
+                        "fTargetCode": "fz016",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "城镇土地使用税变动率和无形资产（土地）变动率配比值处于（150%,无穷大]为高风险；"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            },
+            {
+                "fTradeName": null,
+                "fTargetType": "Risk.GroupTarget",
+                "fTargetName": "环保税变动异常",
+                "fTargetCode": "fz011",
+                "fTargetShow": "环境保护税与收入变动比例用于衡量企业本期营业收入与环境保护税的变动比例是否在合理范围内。",
+                "fValueType": null,
+                "fCountTime": "年度",
+                "fTaxName": "环境保护税",
+                "normal": "环境保护税与收入变动比例处于95%-105%为正常",
+                "levelExplainList": [
+                    {
+                        "fCode": "9662abac38454b3b9bb6ff4cb3099d52",
+                        "fTargetCode": "fz011",
+                        "fLevel": 3,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "环境保护税与收入变动比例处于（90%,95%],[105%,110%)为低风险"
+                    },
+                    {
+                        "fCode": "c0922bdadd9249c19a0a2c1a47dbc6ae",
+                        "fTargetCode": "fz011",
+                        "fLevel": 2,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "环境保护税与收入变动比例处于（50%,90%],[110%,150%)为中风险"
+                    },
+                    {
+                        "fCode": "3b02ae836cfc4012b11858909912f0e8",
+                        "fTargetCode": "fz011",
+                        "fLevel": 1,
+                        "fTargetType": "Risk.GroupTarget",
+                        "fExplain": "环境保护税与收入变动比例处于(无穷小50%],[150%,无穷大)为高风险"
+                    }
+                ],
+                "fIsExtend": 0,
+                "fExtendCode": null
+            }
+        ]
+    },
+    "success": true
+}

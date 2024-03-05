@@ -13,7 +13,8 @@ const Page2 = lazy(() => import("../views/Page2"))
 const Page301 = lazy(() => import("../views/Page301"))
 const FileManage = lazy(() => import("../views/taxFiles/fileManage"))
 const LawLibrary = lazy(() => import("../views/lawLibrary/lawLibrary"))
-const RiskList = lazy(() => import("../views/riskIdentyResponse/riskList"))
+const RiskList = lazy(() => import("../views/riskIdentyResponse/riskList/riskList"))
+const OverView = lazy(() => import("../views/riskIdentyResponse/overView"))
 // 报错A component suspended while responding to synchronous input. This will cause the UI to be replaced with a loading indicator.
 // 懒加载的模式的组件的写法，外面需要套一层 Loading 的提示加载组件
 
@@ -28,7 +29,7 @@ const routes = [
   //  嵌套路由 开始-------------------
   {
     path: "/",
-    element: <Navigate to="/lawLibrary/lawLibrary" />
+    element: <Navigate to="/riskIdentyResponse/overView" />
   },
   {
     path: "/",
@@ -51,6 +52,10 @@ const routes = [
         element: withLoadingComponent(<RiskList />)
       },
       {
+        path: "/riskIdentyResponse/overView",
+        element: withLoadingComponent(<OverView />)
+      },
+      {
         path: "/taxFiles/fileManage",
         element: withLoadingComponent(<FileManage />)
       },
@@ -69,7 +74,7 @@ const routes = [
   // 访问其余路径的时候直接跳到首页
   {
     path: "*",
-    element: <Navigate to="/lawLibrary/lawLibrary" />
+    element: <Navigate to="/riskIdentyResponse/overView" />
   }
 
   // {
