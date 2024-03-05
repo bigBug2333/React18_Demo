@@ -8,6 +8,9 @@ import type { DataNode, TreeProps } from 'antd/es/tree';
 import { JSXElementConstructor, Key, ReactElement, ReactFragment, ReactPortal, useEffect, useState } from 'react';
 import { queryRiskHBData } from '../../../request/index';
 import TaxRisks from './components/taxRisks'
+import SectorRisks from './components/sectorRisks'; // 导入 LineChart 组件
+import SectorPatment from './components/sectorPatment'; // 导入 LineChart 组件
+
 
 const View = () => {
     const [cateList, setCateList] = useState<any>([
@@ -97,7 +100,19 @@ const View = () => {
 
         })
     }
-
+    const data = [
+        { date: '2024-01-01', value: 100 },
+        { date: '2024-01-02', value: 150 },
+        { date: '2024-01-03', value: 200 },
+        // 其他数据项
+    ];
+    // 假设有柱状图数据
+    const barChartData = [
+        { category: 'A', value: 100 },
+        { category: 'B', value: 150 },
+        { category: 'C', value: 200 },
+        // 其他数据项
+    ];
     return (
         <div className='header tax-full tax-flex tax-flex-column'>
             {/* 上方数字显示栏 */}
@@ -158,7 +173,8 @@ const View = () => {
                             <span className="title">板块整体风险情况</span>
                         </div>
                     </div>
-                    <TaxRisks></TaxRisks>
+                    <SectorRisks data={barChartData} ></SectorRisks>
+
                 </div>
             </div>
             <div className='chartList'>
@@ -169,7 +185,7 @@ const View = () => {
                             <span className="title">板块应补缴税金</span>
                         </div>
                     </div>
-                    <TaxRisks></TaxRisks>
+                    <SectorPatment data={data} ></SectorPatment>
                 </div>
                 <div className='chartBox bgcBasic'>
                     <div className="tax-layout-item tree-container  " >
@@ -178,7 +194,8 @@ const View = () => {
                             <span className="title">板块已补缴税金</span>
                         </div>
                     </div>
-                    <TaxRisks></TaxRisks>
+                    <SectorPatment data={data} ></SectorPatment>
+
                 </div>
             </div>
 
