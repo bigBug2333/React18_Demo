@@ -52,6 +52,16 @@ export const queryRiskHBData = (data: any) => {
   return instance.post('/taxmanagerisk/riskOlive/queryRiskHBData', data);
 };
 
+// 2.获取饼图
+export const queryRiskTaxList = (data: any) => {
+  return instance.post('/taxmanagerisk/riskOlive/queryRiskTaxList', data);
+};
+// 3，获取右上柱状图-板块风险整体情况
+export const queryRiskOlive = (data: any) => {
+  return instance.post('/taxmanagerisk/riskOlive/queryRiskOlive', data);
+};
+
+
 // 税收法规库
 // 1.常用搜索+轮播图+Tab
 export const queryHomeFixedNew = () => {

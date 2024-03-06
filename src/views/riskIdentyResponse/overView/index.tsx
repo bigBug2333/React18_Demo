@@ -6,7 +6,7 @@ import {
 } from '@ant-design/icons';
 import type { DataNode, TreeProps } from 'antd/es/tree';
 import { JSXElementConstructor, Key, ReactElement, ReactFragment, ReactPortal, useEffect, useState } from 'react';
-import { queryRiskHBData } from '../../../request/index';
+import { queryRiskHBData, queryRiskTaxList, queryRiskOlive } from '../../../request/index';
 import TaxRisks from './components/taxRisks'
 import SectorRisks from './components/sectorRisks'; // 导入 LineChart 组件
 import SectorPatment from './components/sectorPatment'; // 导入 LineChart 组件
@@ -36,6 +36,88 @@ const View = () => {
         },
     ]); // 设置要展示的内容
 
+    const [pieChartDate, setPieChartDate] = useState<any>({
+        data: [
+            {
+                "value": "1",
+                "name": "增值税"
+            },
+            {
+                "value": "0",
+                "name": "企业所得税"
+            },
+            {
+                "value": "0",
+                "name": "房产税"
+            },
+            {
+                "value": "0",
+                "name": "城镇土地使用税"
+            },
+            {
+                "value": "1",
+                "name": "印花税"
+            },
+            {
+                "value": "0",
+                "name": "环境保护税"
+            }
+        ],
+        total: 0
+    }); // 饼图数据
+
+    const [barChartOption, setBarChartOption] = useState<any>({
+        "xAxis": [
+            "交通",
+            "高新",
+            "矿业",
+            "生物",
+            "健康",
+            "检测",
+            "智能",
+            "中成",
+            "电子院",
+            "创益"
+        ],
+        "seriesData": {
+            "xtsb": [
+                "1",
+                "1",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+            ],
+            "sjts": [
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+            ],
+            "bkfxzb": [
+                "0.00",
+                "0.00",
+                "0.00",
+                "0.00",
+                "0.00",
+                "0.00",
+                "0.00",
+                "0.00",
+                "0.00",
+                "0.00"
+            ]
+        }
+    }); // 柱状图数据
     // 获取金额
     const getNum = (val: string) => {
         return val.replace(/[\u4E00-\u9FA5\\s]+/, '')
@@ -52,7 +134,8 @@ const View = () => {
         initList()
     }, []);
     const initList = async () => {
-        await queryRiskHBData({
+        // 获取上方的风险信息
+        queryRiskHBData({
             identId: localStorage.getItem("uuid"),
             fTime: "2024-03",
             queryType: "0"
@@ -96,21 +179,48 @@ const View = () => {
                     type: 0
                 },
             ])
-            console.log(111, cateList)
+        })
 
+        // 获取饼图
+        queryRiskTaxList({
+            identId: localStorage.getItem("uuid"),
+            fTime: "2024-03",
+            queryType: "0"
+        }).then((res) => {
+            let total = 0
+
+            let data = res.data.data.map((item: any) => {
+                total += Number(item.fxtsbcount)
+                return { value: item.fxtsbcount, name: item.fname }
+            })
+            setPieChartDate({
+                data,
+                total
+            })
+            console.log(data, total)
+        })
+        // 获取柱状图
+        queryRiskOlive({
+            identId: localStorage.getItem("uuid"),
+            fTime: "2024-03",
+            queryType: "0"
+        }).then((res) => {
+
+            let needData = res.data.data.filter((item: any, t: number) => t < 10 && item.fPlateName != "合计")
+            setBarChartOption({
+                xAxis: needData.map((item: any) => item.fPlateName),
+                seriesData: {
+                    xtsb: needData.map((item: any) => item.fxtsbcount),
+                    sjts: needData.map((item: any) => item.fsjts),
+                    bkfxzb: needData.map((item: any) => item.bkfxzb),
+                },
+            })
         })
     }
     const data = [
         { date: '2024-01-01', value: 100 },
         { date: '2024-01-02', value: 150 },
         { date: '2024-01-03', value: 200 },
-        // 其他数据项
-    ];
-    // 假设有柱状图数据
-    const barChartData = [
-        { category: 'A', value: 100 },
-        { category: 'B', value: 150 },
-        { category: 'C', value: 200 },
         // 其他数据项
     ];
     return (
@@ -164,7 +274,16 @@ const View = () => {
                             <span className="title">常用工具</span>
                         </div>
                     </div>
-                    <TaxRisks></TaxRisks>
+                    <TaxRisks pieChartDate={pieChartDate}></TaxRisks>
+                    <div className="tax-flex-center-all pieChartTips">
+                        <div>
+                            <div className="itemTop">
+                                <span>{pieChartDate.total}</span>
+                                <span>个</span>
+                            </div>
+                            <div className="itemBottom" style={{ color: 'rgba(0, 0, 0, 0.55)' }}>风险总数</div>
+                        </div>
+                    </div>
                 </div>
                 <div className='chartBox bgcBasic'>
                     <div className="tax-layout-item tree-container  " >
@@ -173,7 +292,7 @@ const View = () => {
                             <span className="title">板块整体风险情况</span>
                         </div>
                     </div>
-                    <SectorRisks data={barChartData} ></SectorRisks>
+                    <SectorRisks barChartOption={barChartOption} ></SectorRisks>
 
                 </div>
             </div>
@@ -195,7 +314,6 @@ const View = () => {
                         </div>
                     </div>
                     <SectorPatment data={data} ></SectorPatment>
-
                 </div>
             </div>
 
